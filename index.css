@@ -16,6 +16,7 @@ html{
     list-style: none;
     text-decoration: none;
     color: var(--text-color);
+    font-weight: 500;
 }
 
 :root{
@@ -69,6 +70,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.item-active{
+    background-color: var(--bg);
 }
 .item img{
     width:  22px ;
@@ -159,6 +163,7 @@ body{
 
 #element{
     color: var(--main-color);
+    font-weight: 900;
 }
 
 
