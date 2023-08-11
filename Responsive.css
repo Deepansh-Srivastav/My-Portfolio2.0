@@ -1,0 +1,148 @@
+@media(max-width:400px) {
+
+    /* portfolio div */
+    .portfolio {
+        width: 45px;
+    }
+
+    .portfolio img {
+        width: 45px;
+        height: 45px;
+    }
+    
+/* nav items */
+    .item {
+        width: 45px;
+        height: 45px;
+    }
+    .item img{
+        width:  24px ;
+        height: 24px ;
+    }
+    .back-to-top{
+        bottom: 3rem;
+    }
+
+    .back-to-top img{
+        width: 24px;
+    }
+
+    /* 
+    ===================================================================================
+    ===================================================================================
+    ===================================================================================
+    =====             NavBAr      Til here                                                    =====
+    ===================================================================================
+    ===================================================================================
+    ===================================================================================
+    */
+
+
+/* information image and text container starts here  */
+
+    .information-container {
+        padding-top: 80px;
+    }
+
+    .my-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .my-image img {
+        width: 150px;
+        height: 250px;
+        right: 48px;
+    }
+
+    .info {
+        font-size: 36px;
+    }
+
+}
+
+@media(max-width:320px) {
+
+    .nav-bar {
+        position: fixed;
+        top: 50px;
+    }
+
+/* portfolio div */
+    .portfolio {
+        width: 40px;
+    }
+
+    .portfolio img {
+        width: 40px;
+        height: 40px;
+    }
+
+/* nav items */
+    .item {
+        width: 40px;
+        height: 40px;
+    }
+    .item img{
+        width:  22px ;
+        height: 22px ;
+    }
+    /* navbar ends */
+
+
+
+    /* information image and text container starts here  */
+
+    .my-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .my-image img {
+        width: 130px;
+        height: 210px;
+        right: 35px;
+    }
+
+    .info {
+        font-size: 30px;
+    }
+
+
+
+}
+
+
+@media(max-width:280px){
+
+/* nav items */
+    .item {
+        width: 35px;
+        height: 35px;
+    }
+    /* navbar ends */
+
+
+
+    /* information image and text container starts here  */
+
+    .my-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .my-image img {
+        width: 115px;
+        height: 190px;
+        right: 21px;
+    }
+
+    .info {
+        font-size: 24px;
+    }
+    .back-to-top{
+        bottom: 8rem;
+    }
+
+
+}
