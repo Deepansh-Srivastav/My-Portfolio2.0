@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap');
 
 /* roboto */
-  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;700;900&display=swap');
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -20,15 +20,44 @@ html{
     box-sizing: border-box;
 }
 
+/* mint  Teal Tranquility */
+/* :root{
+    --bg : #2C3639;
+    --secondary-color :#112e42 ;
+    --main-color : #569DAA;
+    --text-color : #ededed;
+    --maxWidth:1300px;
+} */
+
+/* orange  Ember Glow */
+/* :root{
+    
+    --bg : #112B3C;
+    --secondary-color :#112e42 ;
+    --main-color : #D34C26;
+    --text-color : #ededed;
+    --maxWidth:1300px;
+} */
+
+/* purple   Indigo Delight*/
 :root{
+    --bg : #040c18;
+    --secondary-color :#112e42 ;
+    --main-color : #614BC3;
+    --text-color : #ededed;
+    --maxWidth:1300px;
+}
+
+/* blue     "Oceanic Elegance */  
+/* :root{
     --bg : #081b29;
     --secondary-color :#112e42 ;
     --main-color : #00abf0;
     --text-color : #ededed;
     --maxWidth:1300px;
-}
+} */
 
-body{
+body {
     background-color: var(--bg);
 
     /* backdrop-filter: blur(100px); */
@@ -48,7 +77,7 @@ body{
 
 
 /* side navbar div */
-.nav-bar{
+.nav-bar {
     height: auto;
     width: auto;
     max-width: 45px;
@@ -65,35 +94,37 @@ body{
 }
 
 /* portfolio div */
-.portfolio{
+.portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 45px;
 }
 
-.portfolio img{
-    width:  45px;
+.portfolio img {
+    width: 45px;
     height: 45px;
 }
 
 /* nav items */
-.item{
+.item {
     width: 45px;
     height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.item-active{
+
+.item-active {
     background-color: var(--bg);
 }
-.nav-item-img{
-    width:  22px ;
-    height: 22px ;
+
+.nav-item-img {
+    width: 22px;
+    height: 22px;
 }
 
-.theme-container{
+.theme-container {
     position: fixed;
     right: 0;
     top: 389px;
@@ -102,22 +133,24 @@ body{
     z-index: 1;
 }
 
-.themes{
-    /* max-width: 89vw; */
+.themes {
+    /* max-width: 89%; */
     max-width: 0;
     width: 100%;
-    height: 45px;
-    background-color: red;
+    height: 155px;
+    background-color: var(--secondary-color);
     position: fixed;
     left: 0;
+    bottom: 348px;
     transition: max-width 1s;
 
 }
-.theme-active{
-    max-width: 89vw;
-}
 
-.themesButton{
+/* .theme-active{
+    max-width: 89vw;
+} */
+
+.themesButton {
     height: 45px;
     width: 45px;
     display: flex;
@@ -125,12 +158,12 @@ body{
     align-items: center;
     background-color: var(--main-color);
     border-bottom-left-radius: 7px;
-} 
+}
 
 
 
 /* back-to-top button */
-.back-to-top{
+.back-to-top {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -144,7 +177,8 @@ body{
     transition: transform .3s ease;
     z-index: 1;
 }
-.back-to-top img{
+
+.back-to-top img {
     width: 24px;
 }
 
@@ -160,7 +194,7 @@ body{
 */
 
 
-.information-section{
+.information-section {
     width: 100%;
     height: auto;
     display: flex;
@@ -168,11 +202,11 @@ body{
     align-items: center;
 }
 
-.information-container{
+.information-container {
     width: 100%;
     max-width: var(--maxWidth);
     height: auto;
-    padding: 50px 0px 0px 0px  ;
+    padding: 50px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,12 +214,11 @@ body{
 }
 
 
-.blur
-{
+.blur {
     filter: blur(8px);
 }
 
-.my-image{
+.my-image {
     width: 300px;
     height: 300px;
     border: 4px solid var(--text-color);
@@ -195,7 +228,7 @@ body{
     overflow: hidden;
 }
 
-.my-image img{
+.my-image img {
     width: 180px;
     height: 300px;
     position: absolute;
@@ -205,7 +238,7 @@ body{
 
 /* text in information 'Hi i am deepansh'  */
 
-.introduction{
+.introduction {
 
     margin-top: 20px;
     width: 100%;
@@ -213,18 +246,21 @@ body{
 
 }
 
-.info{
+.info {
     margin-top: 10px;
     font-size: 40px;
 }
 
-#element{
-    color: var(--main-color);
+
+#element {
+    /* color: var(--main-color); */
     font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--main-color);
 }
 
 
-.zz{
+.zz {
     width: 100%;
     height: 1000px;
 }
@@ -255,8 +291,7 @@ body{
 
 
 
-.height
-{
+.height {
     width: 100%;
     height: 2000px;
     display: flex;
