@@ -1,5 +1,9 @@
 @media(max-width:400px) {
 
+    .nav-bar{
+        top: 40px;
+    }
+
     /* portfolio div */
     .portfolio {
         width: 45px;
@@ -65,7 +69,7 @@
 
     .nav-bar {
         position: fixed;
-        top: 50px;
+        top: 20px;
     }
 
 /* portfolio div */
@@ -114,6 +118,14 @@
 
 
 @media(max-width:280px){
+
+
+    /* navbar */
+
+    .nav-bar{
+        top: 25px;
+    }
+
 
 /* nav items */
     .item {

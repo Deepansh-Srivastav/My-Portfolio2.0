@@ -17,3 +17,23 @@ navButtons.forEach((btn) => {
 
     })
 })
+
+// const root = document.documentElement
+
+
+let  main = document.querySelector('.main')
+
+let themeButton = document.querySelector('.theme-container')
+
+let themeBox = document.querySelector('.themes')
+
+themeButton.addEventListener('click',()=>{
+
+    main.classList.toggle('blur')
+    themeBox.classList.toggle('theme-active')
+
+    
+    // root.style.setProperty('--bg', '#112e42 ');
+    // root.style.setProperty('--main-color', '#ededed ');
+})
+
