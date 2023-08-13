@@ -20,42 +20,44 @@ html {
     box-sizing: border-box;
 }
 
-/* mint  Teal Tranquility */
+/* Red  Crimson Passion */
+/* Final */
 /* :root{
     --bg : #2C3639;
     --secondary-color :#112e42 ;
-    --main-color : #569DAA;
+    --main-color : #DC0000;
     --text-color : #ededed;
     --maxWidth:1300px;
 } */
-
-/* orange  Ember Glow */
-/* :root{
-    
+ 
+/* Green Teal Treasures */
+/* :root{   
     --bg : #112B3C;
     --secondary-color :#112e42 ;
-    --main-color : #D34C26;
+    --main-color : #61b093;
     --text-color : #ededed;
     --maxWidth:1300px;
 } */
 
 /* purple   Indigo Delight*/
-:root{
+/* Final */
+/* :root{
     --bg : #040c18;
     --secondary-color :#112e42 ;
-    --main-color : #614BC3;
+    --main-color : #614bc3;
     --text-color : #ededed;
     --maxWidth:1300px;
-}
+} */
 
 /* blue     "Oceanic Elegance */  
-/* :root{
+/* Final */
+:root{
     --bg : #081b29;
     --secondary-color :#112e42 ;
     --main-color : #00abf0;
     --text-color : #ededed;
     --maxWidth:1300px;
-} */
+}
 
 body {
     background-color: var(--bg);
@@ -131,24 +133,73 @@ body {
     width: auto;
     height: auto;
     z-index: 1;
+    cursor: pointer;
 }
 
 .themes {
-    /* max-width: 89%; */
-    max-width: 0;
+
+    max-width: 89%;
+    /* max-width: 0; */
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
     width: 100%;
-    height: 155px;
+    height: 200px;
     background-color: var(--secondary-color);
     position: fixed;
-    left: 0;
+    left: -100vw;
     bottom: 348px;
-    transition: max-width 1s;
-
+    transition: 1s;
 }
 
-/* .theme-active{
-    max-width: 89vw;
-} */
+.theme-active{
+    left: 0;
+    /* max-width: 89vw; */
+    padding: .5rem 1rem;
+}
+
+.theme-select{
+    font-size:14px ;
+    overflow: hidden;
+    padding: 8px;
+    width: 100%;
+    max-width: 130px;
+    background-color: #61677A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.theme-select:hover{
+    transform: scale(1.05);
+}
+
+.theme-select img{
+    width: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    animation: rotate 20s linear infinite;
+}
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
 
 .themesButton {
     height: 45px;
@@ -220,7 +271,7 @@ body {
 
 .my-image {
     width: 300px;
-    height: 300px;
+    height: 310px;
     border: 4px solid var(--text-color);
     border-radius: 50%;
     position: relative;
@@ -230,7 +281,7 @@ body {
 
 .my-image img {
     width: 180px;
-    height: 300px;
+    height: 320px;
     position: absolute;
     top: 0;
     right: 56px;
