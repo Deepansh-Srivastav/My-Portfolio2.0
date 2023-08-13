@@ -31,11 +31,30 @@
         width: 24px;
     }
 
+
+    /* theme and theme selection */
+
+    /* div taht has theme button image and theme container */
+    .theme-container{
+        top: 364px;
+    }
+
+    /* div that has theme changing  buttons */
+    .themes{
+        max-width: 86vw;
+    }
+
+    /* theme selection button */
+    .theme-select{
+        font-size: 12px;
+        max-width: 120px;
+    }
+
     /* 
     ===================================================================================
     ===================================================================================
-    ===================================================================================
-    =====             NavBAr      Til here                                                    =====
+    =============================================================
+    NavBAR Till here                                                                          =====
     ===================================================================================
     ===================================================================================
     ===================================================================================
@@ -50,12 +69,12 @@
 
     .my-image {
         width: 250px;
-        height: 250px;
+        height: 260px;
     }
 
     .my-image img {
         width: 150px;
-        height: 250px;
+        height: 270px;
         right: 48px;
     }
 
@@ -65,12 +84,23 @@
 
 }
 
+
+
+
 @media(max-width:320px) {
 
+    /* navbar */
     .nav-bar {
         position: fixed;
         top: 20px;
     }
+
+
+    /* theme and theme selection */
+
+
+
+
 
 /* portfolio div */
     .portfolio {
@@ -91,6 +121,40 @@
         width:  22px ;
         height: 22px ;
     }
+
+
+        /* theme and theme selection */
+
+    /* div that has theme button image and theme container */
+    .theme-container{
+        top: 309px;
+    }
+    /* theme button visible on the navbar */
+    .themesButton{
+        width: 40px;
+        height: 40px;
+    }
+
+    /* div that has theme changing  buttons */
+    .themes{
+        max-width: 84vw;
+        top: 150px;
+    }
+
+
+    /* theme selection button */
+    .theme-select{
+        font-size: 10px;
+        max-width: 110px;
+    }
+
+
+
+
+
+
+
+
     /* navbar ends */
 
 
@@ -104,8 +168,8 @@
 
     .my-image img {
         width: 130px;
-        height: 210px;
-        right: 35px;
+        height: 230px;
+        right: 30px;
     }
 
     .info {
@@ -123,7 +187,7 @@
     /* navbar */
 
     .nav-bar{
-        top: 25px;
+        top: 20px;
     }
 
 
@@ -132,6 +196,40 @@
         width: 35px;
         height: 35px;
     }
+
+
+
+            /* theme and theme selection */
+
+    /* div that has theme button image and theme container */
+    .theme-container{
+        top: 280px;
+    }
+
+    /* div that has theme changing  buttons */
+    .themes{
+        max-width: 85vw;
+        top: 125px;
+    }
+
+
+    /* theme selection button */
+    .theme-select{
+        font-size: 10px;
+        max-width: 96px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     /* navbar ends */
 
 
