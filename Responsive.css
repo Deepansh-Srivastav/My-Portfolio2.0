@@ -284,16 +284,24 @@
 
 @media(min-width:750px) {
 
+    /* NAVBAR Starts */
+
+
+
     .nav-bar{
         top: 0;
         align-items: center;
+        max-width: 120px;
+        border-bottom-left-radius: 0;
     }
 
     .item{
-        width: 80px;
+        width: 120px;
         height: 80px;
         margin-bottom: 10px;
         flex-direction: column;
+        background-color: var(--main-color);
+
     }
     .portfolio {
         width: 120px;
@@ -302,7 +310,8 @@
         flex-direction: column;
     }
     .item:hover {
-        background-color: red;
+        width: 150px;
+        background-color: var(--bg);
     }
 
     .portfolio img{
@@ -319,9 +328,72 @@
         font-size: 14px ;
     }
 
+    .themesButton {
+        width: 120px;
+        height: 80px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .theme-container:hover{
+        background-color: var(--bg);
+        border-bottom-left-radius: 0;
+    }
+
+    .themesButton img{
+
+        width: 28px;
+        height: 28px;
+    }
+    
+    .themes{
+        max-width: 80vw;
+        top: 550px;
+    }
+
+
+
+    .back-to-top{
+        display: none;
+    }
+
+
+        /* NAVBAR Starts Ends */
 
 
 
 
+}
+
+
+
+/* 
+===================================================================================
+===================================================================================
+===================================================================================
+===== For devide width more than 1000px                                                                      =====
+===================================================================================
+===================================================================================
+===================================================================================
+*/
+
+
+@media(min-width:1000px){
+
+    .my-image {
+        width: 420px;
+        height: 420px;
+        border: 5px solid var(--text-color);
+    }
+
+    .my-image img {
+        width: 235px;
+        height: 415px;
+        position: absolute;
+        top: 0;
+        right: 80px;
+    }
 
 }
