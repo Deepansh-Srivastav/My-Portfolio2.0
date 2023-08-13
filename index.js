@@ -51,22 +51,22 @@ function toggleImage(value){
 
     switch (value) {
         case 0:
-            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-blue.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-blue.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/blue-arrow.png'
             break;
     
         case 1:
-            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-purple.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-purple.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/purple-arrow.png'
             break;
     
         case 2:
-            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-green.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-green.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/green-arrow.png'
             break;
     
         case 3:
-            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-red.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-red.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/red-arrow.png'
             break;
     
