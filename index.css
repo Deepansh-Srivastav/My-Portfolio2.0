@@ -121,7 +121,7 @@ body {
     background-color: var(--bg);
 }
 
-.nav-item-img {
+.item img{
     width: 22px;
     height: 22px;
 }
