@@ -51,23 +51,23 @@ function toggleImage(value){
 
     switch (value) {
         case 0:
-            myImage.src = 'http://127.0.0.1:5501/Icons/me-blue.png'
-            back2TopButton.src = 'http://127.0.0.1:5501/Icons/Back%20to%20top%20icons/blue-arrow.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-blue.png'
+            back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/blue-arrow.png'
             break;
     
         case 1:
-            myImage.src = 'http://127.0.0.1:5501/Icons/me-purple.png'
-            back2TopButton.src = 'http://127.0.0.1:5501/Icons/Back%20to%20top%20icons/purple-arrow.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-purple.png'
+            back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/purple-arrow.png'
             break;
     
         case 2:
-            myImage.src = 'http://127.0.0.1:5501/Icons/me-green.png'
-            back2TopButton.src = 'http://127.0.0.1:5501/Icons/Back%20to%20top%20icons/green-arrow.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-green.png'
+            back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/green-arrow.png'
             break;
     
         case 3:
-            myImage.src = 'http://127.0.0.1:5501/Icons/me-red.png'
-            back2TopButton.src = 'http://127.0.0.1:5501/Icons/Back%20to%20top%20icons/red-arrow.png'
+            myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/me-red.png'
+            back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/red-arrow.png'
             break;
     
 
