@@ -1,6 +1,6 @@
 @media(max-width:400px) {
 
-    .nav-bar{
+    .nav-bar {
         top: 40px;
     }
 
@@ -13,21 +13,23 @@
         width: 45px;
         height: 45px;
     }
-    
-/* nav items */
+
+    /* nav items */
     .item {
         width: 45px;
         height: 45px;
     }
-    .item img{
-        width:  24px ;
-        height: 24px ;
+
+    .item img {
+        width: 24px;
+        height: 24px;
     }
-    .back-to-top{
+
+    .back-to-top {
         bottom: 3rem;
     }
 
-    .back-to-top img{
+    .back-to-top img {
         width: 24px;
     }
 
@@ -35,17 +37,17 @@
     /* theme and theme selection */
 
     /* div taht has theme button image and theme container */
-    .theme-container{
+    .theme-container {
         top: 364px;
     }
 
     /* div that has theme changing  buttons */
-    .themes{
+    .themes {
         max-width: 86vw;
     }
 
     /* theme selection button */
-    .theme-select{
+    .theme-select {
         font-size: 12px;
         max-width: 120px;
     }
@@ -61,7 +63,7 @@
     */
 
 
-/* information image and text container starts here  */
+    /* information image and text container starts here  */
 
     .information-container {
         padding-top: 80px;
@@ -102,7 +104,7 @@
 
 
 
-/* portfolio div */
+    /* portfolio div */
     .portfolio {
         width: 40px;
     }
@@ -112,38 +114,40 @@
         height: 40px;
     }
 
-/* nav items */
+    /* nav items */
     .item {
         width: 40px;
         height: 40px;
     }
-    .item img{
-        width:  22px ;
-        height: 22px ;
+
+    .item img {
+        width: 22px;
+        height: 22px;
     }
 
 
-        /* theme and theme selection */
+    /* theme and theme selection */
 
     /* div that has theme button image and theme container */
-    .theme-container{
+    .theme-container {
         top: 309px;
     }
+
     /* theme button visible on the navbar */
-    .themesButton{
+    .themesButton {
         width: 40px;
         height: 40px;
     }
 
     /* div that has theme changing  buttons */
-    .themes{
+    .themes {
         max-width: 84vw;
         top: 150px;
     }
 
 
     /* theme selection button */
-    .theme-select{
+    .theme-select {
         font-size: 10px;
         max-width: 110px;
     }
@@ -181,17 +185,17 @@
 }
 
 
-@media(max-width:280px){
+@media(max-width:280px) {
 
 
     /* navbar */
 
-    .nav-bar{
+    .nav-bar {
         top: 20px;
     }
 
 
-/* nav items */
+    /* nav items */
     .item {
         width: 35px;
         height: 35px;
@@ -199,22 +203,22 @@
 
 
 
-            /* theme and theme selection */
+    /* theme and theme selection */
 
     /* div that has theme button image and theme container */
-    .theme-container{
+    .theme-container {
         top: 280px;
     }
 
     /* div that has theme changing  buttons */
-    .themes{
+    .themes {
         max-width: 85vw;
         top: 125px;
     }
 
 
     /* theme selection button */
-    .theme-select{
+    .theme-select {
         font-size: 10px;
         max-width: 96px;
     }
@@ -250,7 +254,8 @@
     .info {
         font-size: 24px;
     }
-    .back-to-top{
+
+    .back-to-top {
         bottom: 8rem;
     }
 
@@ -277,3 +282,46 @@
 */
 
 
+@media(min-width:750px) {
+
+    .nav-bar{
+        top: 0;
+        align-items: center;
+    }
+
+    .item{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .portfolio {
+        width: 120px;
+        height: 100px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .item:hover {
+        background-color: red;
+    }
+
+    .portfolio img{
+        width: 100px;
+        height: 100px;
+    }
+    .item img{
+        width: 28px;
+        height: 28px;
+        margin-bottom: 5px;
+    }
+    .item-names{
+        display: block;
+        font-size: 14px ;
+    }
+
+
+
+
+
+
+}

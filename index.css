@@ -82,7 +82,6 @@ body {
 .nav-bar {
     height: auto;
     width: auto;
-    max-width: 45px;
     background-color: var(--main-color);
     position: fixed;
     top: 65px;
@@ -91,6 +90,8 @@ body {
     flex-direction: column;
     z-index: 1;
     border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
 
     padding-top: 10px;
 }
@@ -126,14 +127,18 @@ body {
     height: 22px;
 }
 
+/* names are hidden in movile view */
+
+.item-names{
+    display: none;
+}
+
 .theme-container {
-    position: fixed;
-    right: 0;
-    top: 389px;
-    width: auto;
-    height: auto;
-    z-index: 1;
+
     cursor: pointer;
+
+    border-bottom-left-radius: 7px;
+
 }
 
 .themes {
@@ -209,8 +214,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-color);
+
     border-bottom-left-radius: 7px;
+
+
 }
 
 
