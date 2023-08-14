@@ -11,9 +11,7 @@ navButtons.forEach((btn) => {
         btn.classList.add('item-active')
 
 
-        setInterval(()=>{
-            btn.classList.remove('item-active')
-        },1300)
+     
 
     })
 })
