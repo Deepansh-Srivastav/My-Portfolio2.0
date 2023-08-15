@@ -290,75 +290,60 @@
 
     .nav-bar{
         top: 0;
+        left: 0;
         align-items: center;
-        max-width: 120px;
-        border-bottom-left-radius: 2px;
-        border-top-left-radius: 2px;
+        justify-content: space-around;
+        max-width: 100%;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+
     }
 
-    .item{
-        width: 120px;
+    .portfolio img {
+        width: 60px;
+    
+    }
+
+
+    .item {
+        width: 90px;
         height: 80px;
-        margin-bottom: 10px;
+        display: flex;
         flex-direction: column;
-        background-color: var(--main-color);
-
-    }
-    .portfolio {
-        width: 120px;
-        height: 100px;
-        margin-bottom: 10px;
-        flex-direction: column;
-    }
-    .item:hover {
-        background-color: var(--bg);
-    }
-
-    .portfolio img{
-        width: 100px;
-        height: 100px;
     }
     .item img{
-        width: 28px;
-        height: 28px;
+        width: 25px;
+        height: 25px;
         margin-bottom: 5px;
     }
+
     .item-names{
         display: block;
-        font-size: 14px ;
+        font-size: 12px;
     }
 
-    .themesButton {
-        width: 120px;
-        height: 80px;
+    .themesButton{
+        display: flex;
+        width: 90px;
+        height: 100%;
+        font-size: 12px;
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-        border-bottom-left-radius: 0;
-    }
-
-    .theme-container:hover{
-        background-color: var(--bg);
-        border-bottom-left-radius: 0;
     }
 
     .themesButton img{
-
-        width: 28px;
-        height: 28px;
-    }
-    
-    .themes{
-        max-width: 80vw;
-        top: 550px;
+        width: 25px;
+        height: 25px;
+        margin-bottom: 5px;
     }
 
 
 
-    .back-to-top{
-        display: none;
-    }
 
+
+    .information-container{
+        margin-top: 100px;
+    }
 
         /* NAVBAR Starts Ends */
 
@@ -379,93 +364,3 @@
 ===================================================================================
 */
 
-
-@media(min-width:1000px){
-
-
-    /* navbar */
-    .item{
-        height: 10.7vh;
-    }
-    .themes{
-        top: 500px;
-        height: 250px;
-    }
-    .theme-select{
-        font-size: 16px;
-        max-width: 160px;
-        height: 125px;
-        border-radius: 10px;
-    }
-    .theme-select img{
-        width: 80px;
-    }
-
-
-    /* navbar ends */
-
-
-
-
-
-
-
-    /* info section */
-    .my-image {
-        width: 420px;
-        height: 420px;
-        border: 5px solid var(--text-color);
-    }
-
-    .my-image img {
-        width: 235px;
-        height: 415px;
-        position: absolute;
-        top: 0;
-        right: 80px;
-    }
-
-    /* info section */
-
-
-
-    
-}
-
-
-
-
-
-
-
-@media(min-width:1700px){
-
-    .nav-bar{
-
-        max-width: 120px;
-
-    }
-    .themes{
-        max-width: 90vw;
-    }
-    
-
-    .item{
-        height: 6.1vw;
-        font-size: 20px;
-    }
-
-    .item img{
-        width: 30px;
-        height: 30px;
-        margin-bottom: 5px;
-    }
-
-    .item-names{
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-
-
-}
