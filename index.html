@@ -6,23 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="./Icons/portfolio.png">
-
-
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./Responsive.css">
+
     <title>My Portfolio </title>
 </head>
 
 <body>
 
 
+    <!--==========================================================================
+    ==============================================================================
+    The navbar that contains all the nav Elements and the back to top button also 
+    ==============================================================================
+    ===========================================================================-->
+
 
     <nav class="nav-bar">
+        <!--=====================================================================
+        It is the First div inside the Navbar and it contains the PORTFOLIO image 
+        =======================================================================-->
         <div class="portfolio"><img src="./Icons/portfolio.png" alt=""></div>
 
-        
+
+        <!--==============================================================================
+        Navbar elements => About, Education, Skills, Projects, Tools , Contacts. NOT THEME
+        ================================================================================-->
         <div class="item-container">
-            <a href="#myImage">
+            <a href="#About">
                 <div class="item"><img src="./Icons/Nav Icons/About.png"><span class="item-names">About</span></div>
             </a>
 
@@ -49,12 +60,22 @@
                 </div>
             </a>
 
-
+            
+            <!--==================================================================================
+            The main container that Contains Both Theme Button and the div that contains all THEMES 
+            ====================================================================================-->
             <div class="theme-container">
 
 
+                <!--===================================================================================
+                The container that contains ALL the Themes from which the user will select.BLue, red etc
+                =====================================================================================-->
                 <div class="themes">
 
+
+                    <!--==================================================================================
+                    Theme select is the each individual THEME (we have 4) each with class = 'theme-select'
+                    ====================================================================================-->
                     <div class="theme-select" id="blue"><img src="./Icons/Theme/Blue.png">
                         Oceanic Elegance
                     </div>
@@ -74,7 +95,9 @@
                 </div>
 
 
-
+                <!--========================================================================================================================
+                 Theme Button that will be displayed on navbar and bu clicking it , it opens up themes option and applies blur effect in the background (on main).
+                ==========================================================================================================================-->
                 <div class="themesButton"> <img src="./Icons/Nav Icons/Theme.png" width="26px"><span
                         class="item-names">Themes</span></div>
             </div>
@@ -83,41 +106,46 @@
         </div>
 
 
+        <!--=====================================================
+        Back to top Button
+        =======================================================-->
+        <button class="back-to-top"><a href="#myImage"><img id="back-to-top"
+                    src="./Icons/Back to top icons/blue-arrow.png"></a></button>
+
     </nav>
 
 
-
-
-
-
-
-    <div class="back-to-top"><a href="#myImage"><img id="back-to-top"
-                src="./Icons/Back to top icons/blue-arrow.png"></a></div>
-
-
+    <!--===================================================================
+    =======================================================================
+    Every thing is wrapped inside the MAIN element to apply the blur effect 
+    =======================================================================
+    ====================================================================-->
 
 
     <main class="main">
-
-
-        <!--
-    ===================================================================================
-    ===================================================================================
-    ===================================================================================
-    =====   Display Image  
-    ===================================================================================
-    ===================================================================================
-    ===================================================================================
-    -->
-
-
+        <!--==================================================
+        ======================================================
+                My Image, My name and some typed JS
+        ======================================================
+        ===================================================-->
         <section id="myImage" class="information-section">
 
+
+            <!--=====================================================
+            The main div inside this information section 
+            =======================================================-->
             <div class="information-container">
 
+
+                <!--=====================================================
+                   Div that has My image
+                =======================================================-->
                 <div class="my-image"> <img id="my-image" src="./Icons/My Images/me-blue.png" alt=""></div>
 
 
+                <!--======================================================
+                .introduction is The div that contains the information text 
+                ========================================================-->
                 <div class="introduction">
                     <h2 class="info">Salutations, I Am</h2>
                     <h2 class="info"></h2>
@@ -126,19 +154,59 @@
                     <h2 class="info"><span id="element"></span></h2>
                 </div>
             </div>
-
         </section>
 
 
-        <div class="height">
-            <h1></h1>
-            <h1>hi this is an h1</h1>
-            <h1>hi this is an h1</h1>
-        </div>
+        <!--==================================================
+        ======================================================
+                        The About Section 
+        ======================================================
+        ===================================================-->
+        <Section id="About">
+
+
+            <!--=====================================================
+            Main Container inside the about Section
+            =======================================================-->
+            <div class="about-container">
+
+                <h2 class="info about-head">About Me</h2>
+
+                <div class="about-text">
+
+                    Hey there! I'm <span class="my-name">Deepansh Srivastav</span>, a passionate student from Gautam
+                    Buddha Nagar, Uttar Pradesh. I'm on a mission to learn, grow, and make a positive impact. My journey
+                    as a learner has been an exciting and enriching one, fueled by my
+                    passion for knowledge and growth. <br><br>
+
+                    My goal is to contribute positively to society, leveraging the
+                    skills and insights I gain along the way. <br><br>
+
+                    Join me on this journey of learning, exploration, and personal growth. Together, let's embark on a
+                    path
+                    that leads to knowledge, discovery, and endless possibilities.
+
+                </div>
+
+
+                <!--=====================================================
+                Resume and Hire Me Button
+                =======================================================-->
+                <div class="buttons">
+
+                    <a href=""><button class="resume-button">Resume</button></a>
+
+                    <a href=""><button class="resume-button hire">Hire Me</button></a>
 
 
 
+                </div>
 
+            </div>
+
+
+
+        </Section>
     </main>
 
 

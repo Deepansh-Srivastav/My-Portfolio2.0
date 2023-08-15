@@ -1,4 +1,3 @@
-
 /* roboto */
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;700;900&display=swap');
 
@@ -34,7 +33,7 @@ html {
     --text-color : #ededed;
     --maxWidth:1300px;
 } */
- 
+
 /* Green Teal Treasures */
 /* :root{   
     --bg : #112B3C;
@@ -54,22 +53,18 @@ html {
     --maxWidth:1300px;
 } */
 
-/* blue     "Oceanic Elegance */  
+/* blue     "Oceanic Elegance */
 /* Final */
-:root{
-    --bg : #081b29;
-    --secondary-color :#112e42 ;
-    --main-color : #00abf0;
-    --text-color : #ededed;
-    --maxWidth:1300px;
+:root {
+    --bg: #081b29;
+    --secondary-color: #112e42;
+    --main-color: #00abf0;
+    --text-color: #ededed;
+    --maxWidth: 1300px;
 }
 
 body {
     background-color: var(--bg);
-
-    /* backdrop-filter: blur(100px); */
-
-    /* background-color: #112e42; */
 }
 
 /* body::before {
@@ -83,25 +78,37 @@ body {
 } */
 
 
-/* side navbar div */
+/* ================================================================================
+===================================================================================
+NavBar Styling 
+===================================================================================
+=================================================================================*/
+
+
 .nav-bar {
     height: auto;
     width: auto;
+
     background-color: var(--main-color);
+
     position: fixed;
     top: 65px;
     right: 0;
+
     display: flex;
     flex-direction: column;
     z-index: 1;
+
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-
 
     padding-top: 10px;
 }
 
-/* portfolio div */
+
+/*=================================================================================
+It is the First div inside the Navbar and it contains the PORTFOLIO image  
+=================================================================================*/
 .portfolio {
     display: flex;
     justify-content: center;
@@ -109,14 +116,19 @@ body {
     width: 45px;
 }
 
+
+/*=================================================================================
+Resizing the image inside the .portfolio div
+=================================================================================*/
 .portfolio img {
     width: 45px;
 
 }
 
 
-
-/* nav items */
+/*=================================================================================
+Navbar elements => About, Education, Skills, Projects, Tools , Contacts. NOT THEME
+=================================================================================*/
 .item {
     width: 45px;
     height: 45px;
@@ -125,38 +137,44 @@ body {
     align-items: center;
 }
 
-.item-active {
-    background-color: var(--bg);
-}
 
-.item img{
+/*=================================================================================
+Image inside these items or Navbar ELEMENTS 
+=================================================================================*/
+.item img {
     width: 22px;
     height: 22px;
 }
 
-/* names are hidden in movile view */
 
-.item-names{
+/*=================================================================================
+Names of each Navbar element(items) hidden for the mobile users
+=================================================================================*/
+.item-names {
     display: none;
-    /* font-family: 'Tektur', cursive; */
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
+
+/*=====================================================================================
+The main container that Contains Both Theme Button and the div that contains all THEMES 
+=====================================================================================*/
 .theme-container {
-
     cursor: pointer;
-
     border-bottom-left-radius: 7px;
-
 }
 
-.themes {
 
+/*======================================================================================
+The container that contains ALL the Themes from which the user will select.BLue, red etc
+======================================================================================*/
+.themes {
     max-width: 89%;
     width: 100%;
     height: 200px;
+
     background-color: var(--secondary-color);
 
     display: flex;
@@ -173,13 +191,21 @@ body {
     border-bottom-right-radius: 20px;
 }
 
-.theme-active{
+
+/*======================================================================================================
+Class to be activated on the Theme container when we click on the Theme Button to achieve sliding effect.
+=======================================================================================================*/
+.theme-active {
     left: 0;
     padding: .5rem;
 }
 
-.theme-select{
-    font-size:14px ;
+
+/*====================================================================================
+Theme select is the each individual THEME (we have 4) each with class = 'theme-select'
+====================================================================================*/
+.theme-select {
+    font-size: 14px;
     overflow: hidden;
     padding: 8px;
     width: 100%;
@@ -195,12 +221,17 @@ body {
     transition: transform .3s;
 }
 
-.theme-select:hover{
+
+.theme-select:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 5px black;
 }
 
-.theme-select img{
+
+/*=================================================================================
+Styling the image and applying animation to rotate the THEME IMAGE 
+=================================================================================*/
+.theme-select img {
     width: 50px;
     border: 3px solid white;
     border-radius: 50%;
@@ -211,15 +242,18 @@ body {
 
 @keyframes rotate {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 
-
+/*=================================================================================
+  Theme Button that will be displayed on navbar and bu clicking it , it opens up themes option and applies blur effect in the background (on main).
+  =================================================================================*/
 .themesButton {
     height: 45px;
     width: 45px;
@@ -230,11 +264,13 @@ body {
 }
 
 
-
-/* back-to-top button */
+/*=================================================================================
+Back to top Button
+=================================================================================*/
 .back-to-top {
     width: 45px;
     height: 45px;
+    background-color: transparent;
     border-radius: 50%;
     border: 4px solid var(--main-color);
     position: fixed;
@@ -247,22 +283,41 @@ body {
     z-index: 1;
 }
 
+
+/*=================================================================================
+Targeting the image inside Bact 2 top button
+=================================================================================*/
 .back-to-top img {
     width: 24px;
 }
 
 
-/* 
-===================================================================================
-===================================================================================
-===================================================================================
-=====                  Information section                                   =====
-===================================================================================
-===================================================================================
-===================================================================================
-*/
 
 
+
+
+
+
+
+
+/* ================================================================================
+===================================================================================
+Information Section Styleing 
+===================================================================================
+=================================================================================*/
+
+
+
+
+
+
+
+
+
+
+/*=================================================================================
+Styling of the section that contains My image and name and texts
+=================================================================================*/
 .information-section {
     width: 100%;
     height: auto;
@@ -270,6 +325,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*=================================================================================
+The main div inside this information section 
+=================================================================================*/
 
 .information-container {
     width: 100%;
@@ -282,10 +341,16 @@ body {
     align-items: center;
 }
 
-
+/*=================================================================================
+The class to toggle the blur effect 
+=================================================================================*/
 .blur {
     filter: blur(8px);
 }
+
+/*=================================================================================
+Image container
+=================================================================================*/
 
 .my-image {
     width: 300px;
@@ -297,6 +362,10 @@ body {
     overflow: hidden;
 }
 
+/*=================================================================================
+Targeting the image inside the container
+=================================================================================*/
+
 .my-image img {
     width: 180px;
     height: 320px;
@@ -305,7 +374,9 @@ body {
     right: 56px;
 }
 
-/* text in information 'Hi i am deepansh'  */
+/*=================================================================================
+.introduction is The div that contains the information text 
+=================================================================================*/
 
 .introduction {
 
@@ -315,12 +386,18 @@ body {
 
 }
 
+/*=================================================================================
+Every single h2 that has the text is named as .info
+=================================================================================*/
+
 .info {
     margin-top: 10px;
     font-size: 40px;
 }
 
-
+/*=================================================================================
+The div that we have used from the Typed JS has the ID = 'element'
+=================================================================================*/
 #element {
     color: var(--main-color);
     /* font-size: 20px; */
@@ -330,42 +407,127 @@ body {
 }
 
 
-.zz {
+
+
+
+
+
+
+
+/* ================================================================================
+===================================================================================
+About me 
+===================================================================================
+=================================================================================*/
+
+
+
+
+
+
+
+
+/*=================================================================================
+About Section 
+=================================================================================*/
+#About {
     width: 100%;
-    height: 1000px;
+    height: auto;
+    background-color: var(--secondary-color);
+
+    margin-top: 180px;
+    padding: 80px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.height {
+/*=================================================================================
+Main Container inside the About section
+=================================================================================*/
+.about-container {
+    max-width: var(--maxWidth);
     width: 100%;
-    height: 2000px;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
+    padding-right: 10%;
 }
+
+
+/*=================================================================================
+Heading of ABOUT 
+=================================================================================*/
+.about-head {
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: var(--main-color);
+}
+
+
+/*=================================================================================
+Text discription of about section after the head
+=================================================================================*/
+.about-text {
+    width: 100%;
+
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*=================================================================================
+Span that contains my name in it 
+=================================================================================*/
+.my-name{
+    color: var(--main-color);
+}
+
+
+/*=================================================================================
+Resume and Hire Button
+=================================================================================*/
+.buttons{
+    width: 80%;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*=================================================================================
+Resume Button Styleing
+=================================================================================*/
+.resume-button{
+    background-color: var(--main-color);
+
+    padding: 10px 30px;
+
+    border: 3px solid var(--text-color);
+    border-radius: 30px;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .2s;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*=================================================================================
+
+=================================================================================*/
