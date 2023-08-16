@@ -263,6 +263,10 @@ Styling the image and applying animation to rotate the THEME IMAGE
     border-bottom-left-radius: 7px;
 }
 
+.themesButton img{
+    width: 22px;
+}
+
 
 /*=================================================================================
 Back to top Button
