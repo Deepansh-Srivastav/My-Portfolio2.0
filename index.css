@@ -60,7 +60,9 @@ html {
     --secondary-color: #112e42;
     --main-color: #00abf0;
     --text-color: #ededed;
+
     --maxWidth: 1300px;
+    --smallMaxWidth:1000px
 }
 
 body {
@@ -278,7 +280,7 @@ Back to top Button
     border-radius: 50%;
     border: 4px solid var(--main-color);
     position: fixed;
-    bottom: 6rem;
+    top: 40rem;
     right: 0;
     display: flex;
     justify-content: center;
@@ -453,7 +455,7 @@ About Section
 Main Container inside the About section
 =================================================================================*/
 .about-container {
-    max-width: var(--maxWidth);
+    max-width: var(--smallMaxWidth);
     width: 100%;
 
     display: flex;
@@ -497,7 +499,7 @@ Span that contains my name in it
 
 
 /*=================================================================================
-Resume and Hire Button
+Resume and Hire Button Container
 =================================================================================*/
 .buttons{
     width: 85%;
@@ -509,7 +511,7 @@ Resume and Hire Button
 
 
 /*=================================================================================
-Resume Button Styleing
+Resume Button Styling
 =================================================================================*/
 .resume-button{
     background-color: var(--main-color);
@@ -525,6 +527,11 @@ Resume Button Styleing
     transition: .2s;
 
     cursor: pointer;
+}
+
+.resume-button:hover{
+    transform: scale(1.1);
+    background-color: var(--bg);
 }
 
 
