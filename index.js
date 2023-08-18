@@ -125,6 +125,8 @@ selectTheme[3].addEventListener('click', () => {
 */
 
 
+
+
 let progress = document.querySelectorAll('.progress')
 
 let display = document.querySelectorAll('.skill-percent')
@@ -164,7 +166,7 @@ let value = [
     // C++
     {
         start: 0,
-        end: 40
+        end: 80
     },
 
     // Python
@@ -172,13 +174,11 @@ let value = [
         start: 0,
         end: 40
     },
-
     // Git
     {
         start: 0,
-        end: 80
+        end: 40
     },
-
 ]
 
 let arr = []
@@ -186,106 +186,168 @@ let arr = []
 let speed = 50;
 
 
- arr[0] = setInterval(() => {
-    value[0].start++
 
-    display[0].innerText = `${value[0].start}%`
 
-    progress[0].style.background = `conic-gradient(var(--main-color) ${3.6 * value[0].start}deg , white 0deg)`
 
-    if(value[0].start === value[0].end){
-        clearInterval(arr[0])
+
+
+
+/* ================================================================================
+Loading the progress bar animation(not exaxtly animation) on scroll
+=================================================================================*/
+let flag = 0
+let flag2 = 0
+window.addEventListener('scroll', (e) => {
+
+    let skills = document.querySelector('#Skills')
+
+    let skillsTop = skills.getBoundingClientRect().top;
+    let skillsBottom = skills.getBoundingClientRect().bottom;
+
+    let windowHeight = window.innerHeight
+
+    let difference = skillsTop - windowHeight
+
+    let difference2 = windowHeight-skillsBottom
+
+
+    console.log(difference2);
+
+
+    if (difference < -18 || (difference2<0 && difference2>(-100))) {
+
+
+        flag++
+
+        if (flag < 2) {
+
+
+
+
+            arr[0] = setInterval(() => {
+                value[0].start++
+
+                display[0].innerText = `${value[0].start}%`
+
+                progress[0].style.background = `conic-gradient(var(--main-color) ${3.6 * value[0].start}deg , white 0deg)`
+
+                if (value[0].start === value[0].end) {
+                    clearInterval(arr[0])
+                }
+            }, speed)
+
+            arr[1] = setInterval(() => {
+                value[1].start++
+
+                display[1].innerText = `${value[1].start}%`
+
+                progress[1].style.background = `conic-gradient(var(--main-color) ${3.6 * value[1].start}deg , white 0deg)`
+
+                if (value[1].start === value[1].end) {
+                    clearInterval(arr[1])
+                }
+            }, speed)
+
+
+            arr[2] = setInterval(() => {
+                value[2].start++
+
+                display[2].innerText = `${value[2].start}%`
+
+                progress[2].style.background = `conic-gradient(var(--main-color) ${3.6 * value[2].start}deg , white 0deg)`
+
+                if (value[2].start === value[2].end) {
+                    clearInterval(arr[2])
+                }
+            }, speed)
+
+
+            arr[3] = setInterval(() => {
+                value[3].start++
+
+                display[3].innerText = `${value[3].start}%`
+
+                progress[3].style.background = `conic-gradient(var(--main-color) ${3.6 * value[3].start}deg , white 0deg)`
+
+                if (value[3].start === value[3].end) {
+                    clearInterval(arr[3])
+                }
+            }, speed)
+
+
+            arr[4] = setInterval(() => {
+                value[4].start++
+
+                display[4].innerText = `${value[4].start}%`
+
+                progress[4].style.background = `conic-gradient(var(--main-color) ${3.6 * value[4].start}deg , white 0deg)`
+
+                if (value[4].start === value[4].end) {
+                    clearInterval(arr[4])
+                }
+            }, speed)
+
+
+            arr[5] = setInterval(() => {
+                value[5].start++
+
+                display[5].innerText = `${value[5].start}%`
+
+                progress[5].style.background = `conic-gradient(var(--main-color) ${3.6 * value[5].start}deg , white 0deg)`
+
+                if (value[5].start === value[5].end) {
+                    clearInterval(arr[5])
+                }
+            }, speed)
+
+
+            arr[6] = setInterval(() => {
+                value[6].start++
+
+                display[6].innerText = `${value[6].start}%`
+
+                progress[6].style.background = `conic-gradient(var(--main-color) ${3.6 * value[6].start}deg , white 0deg)`
+
+                if (value[6].start === value[6].end) {
+                    clearInterval(arr[6])
+                }
+            }, speed)
+
+
+            arr[7] = setInterval(() => {
+                value[7].start++
+
+                display[7].innerText = `${value[7].start}%`
+
+                progress[7].style.background = `conic-gradient(var(--main-color) ${3.6 * value[7].start}deg , white 0deg)`
+
+                if (value[7].start === value[7].end) {
+                    clearInterval(arr[7])
+                }
+            }, speed)
+        }
+
     }
-},speed)
+
+    if (skillsBottom < 0) {
+
+        flag2++;
 
 
- arr[1] = setInterval(() => {
-    value[1].start++
+        if (flag2 < 2) {
+            console.log('hi');
+            for (let i = 0; i < progress.length; i = i + 1) {
 
-    display[1].innerText = `${value[1].start}%`
+                console.log(" loop hi" + i);
+                display[i].innerText = "0%"
 
-    progress[1].style.background = `conic-gradient(var(--main-color) ${3.6 * value[1].start}deg , white 0deg)`
+                progress[i].style.background = "conic-gradient(var(--main-color) 3.6deg , white 0deg)"
+            }
+        }
 
-    if(value[1].start === value[1].end){
-        clearInterval(arr[1])
     }
-},speed)
+
+})
 
 
- arr[2] = setInterval(() => {
-    value[2].start++
-
-    display[2].innerText = `${value[2].start}%`
-
-    progress[2].style.background = `conic-gradient(var(--main-color) ${3.6 * value[2].start}deg , white 0deg)`
-
-    if(value[2].start === value[2].end){
-        clearInterval(arr[2])
-    }
-},speed)
-
-
- arr[3] = setInterval(() => {
-    value[3].start++
-
-    display[3].innerText = `${value[3].start}%`
-
-    progress[3].style.background = `conic-gradient(var(--main-color) ${3.6 * value[3].start}deg , white 0deg)`
-
-    if(value[3].start === value[3].end){
-        clearInterval(arr[3])
-    }
-},speed)
-
-
- arr[4] = setInterval(() => {
-    value[4].start++
-
-    display[4].innerText = `${value[4].start}%`
-
-    progress[4].style.background = `conic-gradient(var(--main-color) ${3.6 * value[4].start}deg , white 0deg)`
-
-    if(value[4].start === value[4].end){
-        clearInterval(arr[4])
-    }
-},speed)
-
-
- arr[5] = setInterval(() => {
-    value[5].start++
-
-    display[5].innerText = `${value[5].start}%`
-
-    progress[5].style.background = `conic-gradient(var(--main-color) ${3.6 * value[5].start}deg , white 0deg)`
-
-    if(value[5].start === value[5].end){
-        clearInterval(arr[5])
-    }
-},speed)
-
-
- arr[6] = setInterval(() => {
-    value[6].start++
-
-    display[6].innerText = `${value[6].start}%`
-
-    progress[6].style.background = `conic-gradient(var(--main-color) ${3.6 * value[6].start}deg , white 0deg)`
-
-    if(value[6].start === value[6].end){
-        clearInterval(arr[6])
-    }
-},speed)
-
-
- arr[7] = setInterval(() => {
-    value[7].start++
-
-    display[7].innerText = `${value[7].start}%`
-
-    progress[7].style.background = `conic-gradient(var(--main-color) ${3.6 * value[7].start}deg , white 0deg)`
-
-    if(value[7].start === value[7].end){
-        clearInterval(arr[7])
-    }
-},speed)
 

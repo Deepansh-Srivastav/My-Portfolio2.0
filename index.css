@@ -56,7 +56,9 @@ html {
 /* blue     "Oceanic Elegance */
 /* Final */
 :root {
+    /* --bg: #081b29; */
     --bg: #081b29;
+
     --secondary-color: #112e42;
     --main-color: #00abf0;
     --text-color: #ededed;
@@ -576,7 +578,7 @@ Resume Button Styling
 Section
 =================================================================================*/
 #Skills{
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     height: auto;
 
@@ -634,6 +636,14 @@ SKILLS Heading
 }
 
 
+.skill-item:hover {
+
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+
 /*=================================================================================
 Div that is the progress bar 
 =================================================================================*/
@@ -641,7 +651,7 @@ Div that is the progress bar
     width: 135px ;
     height: 135px ;
 
-    background: conic-gradient(var(--main-color) 3.6deg , white 0deg) ;
+    background: conic-gradient(var(--main-color) 3.6deg , white 0deg);
     border-radius: 50%;
 
     display: flex;
@@ -666,3 +676,8 @@ Circle inside the Brogress container
     background-color: var(--secondary-color);
 }
 
+
+
+main{
+    height: 10000px;
+}
