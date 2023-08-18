@@ -61,7 +61,7 @@ html {
     --main-color: #00abf0;
     --text-color: #ededed;
 
-    --maxWidth: 1300px;
+    --maxWidth: 1250px;
     --smallMaxWidth:1000px
 }
 
@@ -455,17 +455,34 @@ About Section
 Main Container inside the About section
 =================================================================================*/
 .about-container {
-    max-width: var(--smallMaxWidth);
+    max-width: var(--maxWidth);
     width: 100%;
 
+ 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 
     padding: 0 10% 0 5%;
 }
 
+
+/*=================================================================================
+Image in About container to be visible in larger screens only
+=================================================================================*/
+.about-image{
+    display: none;
+}
+
+/*=================================================================================
+Container that has all the ABOUT text and buttons
+=================================================================================*/
+.about-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*=================================================================================
 Heading of ABOUT 
@@ -507,6 +524,7 @@ Resume and Hire Button Container
 
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -539,6 +557,112 @@ Resume Button Styling
 
 
 
-/*=================================================================================
 
+
+/* ================================================================================
+===================================================================================
+                              The Skills Section
+===================================================================================
+=================================================================================*/ 
+
+
+
+
+
+
+
+
+/*=================================================================================
+Section
 =================================================================================*/
+#Skills{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*=================================================================================
+Main COntainer that wraps all the Skill Eements
+=================================================================================*/
+.skills-main-container{
+    width: 100%;
+    max-width: var(--maxWidth);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0 10% 0 10px;
+
+    row-gap: 50px;
+
+}
+
+
+/*=================================================================================
+SKILLS Heading 
+=================================================================================*/
+
+
+#Skills h2{
+    max-width: var(--maxWidth);
+}
+
+/*=================================================================================
+ Each Individual Skill item ex HTML,CSS,JS etc
+=================================================================================*/
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    width: 165px;
+
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+
+}
+
+
+/*=================================================================================
+Div that is the progress bar 
+=================================================================================*/
+.progress{
+    width: 135px ;
+    height: 135px ;
+
+    background: conic-gradient(var(--main-color) 3.6deg , white 0deg) ;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*=================================================================================
+Circle inside the Brogress container
+=================================================================================*/
+.inside-progress{
+    width: 104px;
+    height: 104px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+
