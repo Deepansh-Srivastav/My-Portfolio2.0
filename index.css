@@ -16,6 +16,7 @@
 
 /* LOGO Font */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* font-family: 'Audiowide', cursive; */
 
 
 html {
@@ -117,6 +118,8 @@ NavBar Styling
     border-bottom-left-radius: 7px;
 
     padding-top: 10px;
+
+    z-index: 5;
 }
 
 
@@ -718,7 +721,7 @@ main{
 
 /* ================================================================================
 ===================================================================================
-                              The Skills Section
+                              The TOOLS Section
 ===================================================================================
 =================================================================================*/ 
 
@@ -729,36 +732,95 @@ main{
 
 
 #Tools{
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tools-main-container{
     width: 100%;
 
     display: flex;
-    flex-direction: column;
+}
+
+
+/*=================================================================================
+Tools main container
+=================================================================================*/
+
+
+.tools-logo-container {
+
+    height: 250px;
+    background-color: #000000;
+
+    display: flex;
     justify-content: center;
     align-items: center;
+
+    animation: slide 20s linear infinite;
+}
+
+
+/*=================================================================================
+Animation to slide the container right ot left
+=================================================================================*/
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+/*=================================================================================
+Each individual Tool div that has tool image and text example HTML , css JS etc
+=================================================================================*/
+.tools-item{
+    height: 120px;
+    width: 300px;
+    padding: 10px 40px;
+
+    font-size: 33px;
+    font-family: 'Audiowide', cursive;
+
+    border-right: 2px solid ;
+    border-image: linear-gradient(to top, transparent,white,transparent)1;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #000000;
+
+}
+
+.tools-item img{
+    height: 100px;
+    margin: 0 20px 0 0px;
+}
+
+
+/*=================================================================================
+JAVASCRIPT div's width is increased because of it long name
+=================================================================================*/
+#extrawide-tools-logo{
+
+    width: 430px;
 
 }
 
 
 /*=================================================================================
-Tools individual Item
+BOOTSTRAP and VSCode div's width is increased because of it long name
 =================================================================================*/
-.tool-item{
+#wide-tools-logo{
 
-    display: flex;
-    justify-content: center;
-    padding: 5px 15px ;
-    background-color: white;
-    align-items: center;
-
-}
-
-.tool-item img{
-    width: 100px;
-}
-
-.tool-item span{
-
-    font-size: 36px;
-    font-family: 'Audiowide', sans-serif;
+    width: 380px;
 
 }
