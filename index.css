@@ -574,6 +574,165 @@ Resume Button Styling
 
 
 
+
+
+
+
+
+
+/* ================================================================================
+===================================================================================
+                              The TOOLS Section
+===================================================================================
+=================================================================================*/ 
+
+
+
+
+
+
+
+#Tools{
+    margin-top: 150px;
+    width: 100%;
+    overflow: hidden;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Tools h2{
+    padding: 0 5px;
+}
+
+.tools-main-container{
+    height: 230px;
+    width: 100%;
+    position: relative;
+
+
+    align-items: center;
+    display: flex;
+}
+.tools-main-container::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    z-index: 1;
+    width: 10%;
+    background: linear-gradient(to left, transparent, transparent, #000000, #000000);
+    left: 0;
+    top: 0;
+}
+
+.tools-main-container::after {
+
+    background: linear-gradient(to right, transparent, transparent, #000000, #000000);
+
+    position: absolute;
+    content: "";
+    height: 100%;
+    z-index: 2;
+    width: 10%;
+
+    right: 0;
+    top: 0;
+}
+
+
+/*=================================================================================
+Tools main container
+=================================================================================*/
+
+
+.tools-logo-container {
+
+    height: 100%;
+    background-color: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: slide 30s linear infinite;
+}
+
+
+
+
+/*=================================================================================
+Animation to slide the container right ot left
+=================================================================================*/
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+/*=================================================================================
+Each individual Tool div that has tool image and text example HTML , css JS etc
+=================================================================================*/
+.tools-item{
+    height: 120px;
+    width: 280px;
+    padding: 10px 40px;
+
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+
+    border-right: 2px solid ;
+    border-image: linear-gradient(to top, transparent,white,transparent)1;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #000000;
+
+}
+
+.tools-item img{
+    height: 90px;
+    margin: 0 20px 0 0px;
+}
+
+
+/*=================================================================================
+JAVASCRIPT div's width is increased because of it long name
+=================================================================================*/
+#extrawide-tools-logo{
+
+    width: 430px;
+
+}
+
+
+/*=================================================================================
+BOOTSTRAP and VSCode div's width is increased because of it long name
+=================================================================================*/
+#wide-tools-logo{
+
+    width: 380px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================================================================================
 ===================================================================================
                               The Skills Section
@@ -591,7 +750,7 @@ Resume Button Styling
 Section
 =================================================================================*/
 #Skills{
-    margin-top: 150px;
+    margin-top: 350px;
     width: 100%;
     height: auto;
 
@@ -601,6 +760,11 @@ Section
     align-items: center;
 }
 
+
+#Skills h2{
+    width: 100%;
+    max-width: var(--maxWidth);
+}
 
 /*=================================================================================
 Main COntainer that wraps all the Skill Eements
@@ -688,8 +852,8 @@ Div that is the progress bar
 Circle inside the Brogress container
 =================================================================================*/
 .inside-progress{
-    width: 84px;
-    height: 84px;
+    width: 70%;
+    height: 70%;
 
     display: flex;
     justify-content: center;
@@ -709,118 +873,4 @@ Circle inside the Brogress container
 
 main{
     height: 10000px;
-}
-
-
-
-
-
-
-
-
-
-/* ================================================================================
-===================================================================================
-                              The TOOLS Section
-===================================================================================
-=================================================================================*/ 
-
-
-
-
-
-
-
-#Tools{
-    margin-top: 100px;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-.tools-main-container{
-    width: 100%;
-
-    display: flex;
-}
-
-
-/*=================================================================================
-Tools main container
-=================================================================================*/
-
-
-.tools-logo-container {
-
-    height: 250px;
-    background-color: #000000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    animation: slide 20s linear infinite;
-}
-
-
-/*=================================================================================
-Animation to slide the container right ot left
-=================================================================================*/
-@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
-}
-
-
-/*=================================================================================
-Each individual Tool div that has tool image and text example HTML , css JS etc
-=================================================================================*/
-.tools-item{
-    height: 120px;
-    width: 300px;
-    padding: 10px 40px;
-
-    font-size: 33px;
-    font-family: 'Audiowide', cursive;
-
-    border-right: 2px solid ;
-    border-image: linear-gradient(to top, transparent,white,transparent)1;
-
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    background-color: #000000;
-
-}
-
-.tools-item img{
-    height: 100px;
-    margin: 0 20px 0 0px;
-}
-
-
-/*=================================================================================
-JAVASCRIPT div's width is increased because of it long name
-=================================================================================*/
-#extrawide-tools-logo{
-
-    width: 430px;
-
-}
-
-
-/*=================================================================================
-BOOTSTRAP and VSCode div's width is increased because of it long name
-=================================================================================*/
-#wide-tools-logo{
-
-    width: 380px;
-
 }
