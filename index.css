@@ -16,7 +16,7 @@
 
 /* LOGO Font */
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-/* font-family: 'Audiowide', sans-serif; */
+
 
 html {
     scroll-behavior: smooth;
@@ -638,7 +638,7 @@ SKILLS Heading
     align-items: center;
 
     height: 200px;
-    width: 165px;
+    width: 160px;
 
     background-color: var(--secondary-color);
     border-radius: 10px;
@@ -662,8 +662,8 @@ SKILLS Heading
 Div that is the progress bar 
 =================================================================================*/
 .progress{
-    width: 135px ;
-    height: 135px ;
+    width: 105px ;
+    height: 105px ;
 
     background: conic-gradient(var(--main-color) 3.6deg , white 0deg);
     border-radius: 50%;
@@ -685,8 +685,8 @@ Div that is the progress bar
 Circle inside the Brogress container
 =================================================================================*/
 .inside-progress{
-    width: 104px;
-    height: 104px;
+    width: 84px;
+    height: 84px;
 
     display: flex;
     justify-content: center;
@@ -743,5 +743,22 @@ main{
 Tools individual Item
 =================================================================================*/
 .tool-item{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px ;
+    background-color: white;
+    align-items: center;
+
+}
+
+.tool-item img{
+    width: 100px;
+}
+
+.tool-item span{
+
+    font-size: 36px;
+    font-family: 'Audiowide', sans-serif;
 
 }
