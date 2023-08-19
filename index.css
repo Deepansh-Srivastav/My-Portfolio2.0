@@ -597,7 +597,6 @@ Resume Button Styling
     width: 100%;
     overflow: hidden;
 
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -621,7 +620,7 @@ Resume Button Styling
     content: "";
     height: 100%;
     z-index: 1;
-    width: 10%;
+    width: 15%;
     background: linear-gradient(to left, transparent, transparent, #000000, #000000);
     left: 0;
     top: 0;
@@ -635,7 +634,7 @@ Resume Button Styling
     content: "";
     height: 100%;
     z-index: 2;
-    width: 10%;
+    width: 15%;
 
     right: 0;
     top: 0;
