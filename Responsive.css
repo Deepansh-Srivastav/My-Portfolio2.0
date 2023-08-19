@@ -102,7 +102,7 @@
     Text in Information Section 
     =================================================================================*/
     .info {
-        font-size: 36px;
+        font-size: 30px;
     }
 
 
@@ -324,7 +324,7 @@ Circle inside the Brogress container
     }
 
     .info {
-        font-size: 30px;
+        font-size: 26px;
     }
 
 
@@ -797,7 +797,7 @@ Circle inside the Brogress container
     =================================================================================*/
     .about-head {
         font-size: 55px;
-        text-align: left;
+        text-align: center;
         padding: 0;
     }
 
@@ -1209,8 +1209,8 @@ Circle inside the Brogress container
             Changing the font size of about heading 
     =================================================================================*/
     .about-head {
-        font-size: 53px;
-        text-align: left;
+        font-size: 50px;
+        text-align: center;
         padding: 0;
     }
 
@@ -1249,7 +1249,34 @@ Circle inside the Brogress container
 
 
 
+
+
+
+
+
+
+    /* ================================================================================
+    ===================================================================================
+    Skill Container
+    ===================================================================================
+    =================================================================================*/ 
+
+    .skill-item {
+        width:320px;
+        height: 400px;
+    }
+
+    .progress {
+        width:240px;
+        height: 240px;
+    }
+
+
+
 }
+
+
+
 
 
 @media(min-width:1700px) {

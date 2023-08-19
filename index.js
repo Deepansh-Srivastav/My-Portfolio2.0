@@ -210,9 +210,7 @@ window.addEventListener('scroll', (e) => {
 
     let difference2 = windowHeight-skillsBottom
 
-
     console.log(difference2);
-
 
     if (difference < -18 || (difference2<0 && difference2>(-100))) {
 
@@ -329,23 +327,6 @@ window.addEventListener('scroll', (e) => {
 
     }
 
-    if (skillsBottom < 0) {
-
-        flag2++;
-
-
-        if (flag2 < 2) {
-            console.log('hi');
-            for (let i = 0; i < progress.length; i = i + 1) {
-
-                console.log(" loop hi" + i);
-                display[i].innerText = "0%"
-
-                progress[i].style.background = "conic-gradient(var(--main-color) 3.6deg , white 0deg)"
-            }
-        }
-
-    }
 
 })
 

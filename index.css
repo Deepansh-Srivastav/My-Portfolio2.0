@@ -1,20 +1,30 @@
 /* roboto */
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;700;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 
 /* Cursive Font  */
 @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+
+
+/* LOGO Font */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* font-family: 'Audiowide', sans-serif; */
 
 html {
     scroll-behavior: smooth;
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -400,7 +410,7 @@ Every single h2 that has the text is named as .info
 
 .info {
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 /*=================================================================================
@@ -505,7 +515,7 @@ Text discription of about section after the head
     width: 100%;
 
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -597,7 +607,7 @@ Main COntainer that wraps all the Skill Eements
     max-width: var(--maxWidth);
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 
@@ -633,13 +643,17 @@ SKILLS Heading
     background-color: var(--secondary-color);
     border-radius: 10px;
 
+    box-shadow:  2px 2px 8px black,
+    -2px -2px 8px black
+
 }
 
 
 .skill-item:hover {
 
-    cursor: pointer;
     transform: scale(1.05);
+
+
 
 }
 
@@ -658,6 +672,12 @@ Div that is the progress bar
     justify-content: center;
     align-items: center;
 
+    /* box-shadow: 4px 4px 15px  black,
+                -4px -4px 15px black  */
+
+    box-shadow: 4px 4px 10px  black,
+                -4px -4px 10px black 
+
 }
 
 
@@ -674,10 +694,54 @@ Circle inside the Brogress container
 
     border-radius: 50%;
     background-color: var(--secondary-color);
+
+    /* box-shadow: inset 4px 4px 25px black,
+                inset -4px -4px 25px black */
+
+    box-shadow: inset 4px 4px 10px black,
+                inset -4px -4px 10px black
 }
 
 
 
 main{
     height: 10000px;
+}
+
+
+
+
+
+
+
+
+
+/* ================================================================================
+===================================================================================
+                              The Skills Section
+===================================================================================
+=================================================================================*/ 
+
+
+
+
+
+
+
+#Tools{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*=================================================================================
+Tools individual Item
+=================================================================================*/
+.tool-item{
+
 }
