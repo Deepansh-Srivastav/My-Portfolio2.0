@@ -202,17 +202,13 @@ window.addEventListener('scroll', (e) => {
     let skills = document.querySelector('#Skills')
 
     let skillsTop = skills.getBoundingClientRect().top;
-    let skillsBottom = skills.getBoundingClientRect().bottom;
 
     let windowHeight = window.innerHeight
 
     let difference = skillsTop - windowHeight
 
-    let difference2 = windowHeight-skillsBottom
 
-    console.log(difference2);
-
-    if (difference < -18 || (difference2<0 && difference2>(-100))) {
+    if (difference < -18) {
 
 
         flag++
@@ -337,14 +333,36 @@ Adding the project Accordion Logic
 ===================================================================================
 =================================================================================*/
 
-
-let accordionHead = document.querySelector('.project-accordion-head') 
-
-let accordionBody = document.querySelector('.project-accordion-body')
+let accordionItem = document.querySelectorAll(".project-accordion")
 
 
-accordionHead.addEventListener('click',()=>{
-    accordionHead.classList.toggle('head-active')
+accordionItem.forEach((accordion) => {
 
-    accordionBody.classList.toggle('body-active')
+    accordion.addEventListener('click', () => {
+        let accordionHead = accordion.querySelector('.accordion-head'),
+            accordionBody = accordion.querySelector('.accordion-body'),
+            arrowImage = accordion.querySelector('.arrow')
+
+        accordionHead.classList.toggle('change-head-border')
+        accordionBody.classList.toggle('activate-accordion')
+        arrowImage.classList.toggle('arrow-rotate')
+
+
+    })
+
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
