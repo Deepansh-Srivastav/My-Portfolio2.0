@@ -1,5 +1,5 @@
 /* roboto */
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
 /* Poppins */
@@ -75,7 +75,7 @@ html {
     --text-color: #ededed;
 
     --maxWidth: 1250px;
-    --smallMaxWidth:1000px
+    --smallMaxWidth: 1000px
 }
 
 body {
@@ -280,7 +280,7 @@ Styling the image and applying animation to rotate the THEME IMAGE
     border-bottom-left-radius: 7px;
 }
 
-.themesButton img{
+.themesButton img {
     width: 22px;
 }
 
@@ -473,7 +473,7 @@ Main Container inside the About section
     max-width: var(--maxWidth);
     width: 100%;
 
- 
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -486,14 +486,14 @@ Main Container inside the About section
 /*=================================================================================
 Image in About container to be visible in larger screens only
 =================================================================================*/
-.about-image{
+.about-image {
     display: none;
 }
 
 /*=================================================================================
 Container that has all the ABOUT text and buttons
 =================================================================================*/
-.about-text-container{
+.about-text-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -525,7 +525,7 @@ Text discription of about section after the head
 /*=================================================================================
 Span that contains my name in it 
 =================================================================================*/
-.my-name{
+.my-name {
     color: var(--main-color);
 }
 
@@ -533,7 +533,7 @@ Span that contains my name in it
 /*=================================================================================
 Resume and Hire Button Container
 =================================================================================*/
-.buttons{
+.buttons {
     width: 85%;
     margin-top: 50px;
 
@@ -546,7 +546,7 @@ Resume and Hire Button Container
 /*=================================================================================
 Resume Button Styling
 =================================================================================*/
-.resume-button{
+.resume-button {
     background-color: var(--main-color);
 
     padding: 10px 30px;
@@ -562,7 +562,7 @@ Resume Button Styling
     cursor: pointer;
 }
 
-.resume-button:hover{
+.resume-button:hover {
     transform: scale(1.1);
     background-color: var(--bg);
 }
@@ -584,7 +584,7 @@ Resume Button Styling
 ===================================================================================
                               The TOOLS Section
 ===================================================================================
-=================================================================================*/ 
+=================================================================================*/
 
 
 
@@ -592,7 +592,7 @@ Resume Button Styling
 
 
 
-#Tools{
+#Tools {
     margin-top: 150px;
     width: 100%;
     overflow: hidden;
@@ -602,11 +602,11 @@ Resume Button Styling
     align-items: center;
 }
 
-#Tools h2{
+#Tools h2 {
     padding: 0 5px;
 }
 
-.tools-main-container{
+.tools-main-container {
     height: 230px;
     width: 100%;
     position: relative;
@@ -615,6 +615,7 @@ Resume Button Styling
     align-items: center;
     display: flex;
 }
+
 .tools-main-container::before {
     position: absolute;
     content: "";
@@ -664,11 +665,12 @@ Tools main container
 /*=================================================================================
 Animation to slide the container right ot left
 =================================================================================*/
-@keyframes slide{
-    from{
+@keyframes slide {
+    from {
         transform: translateX(0);
     }
-    to{
+
+    to {
         transform: translateX(-100%);
     }
 }
@@ -677,7 +679,7 @@ Animation to slide the container right ot left
 /*=================================================================================
 Each individual Tool div that has tool image and text example HTML , css JS etc
 =================================================================================*/
-.tools-item{
+.tools-item {
     height: 120px;
     width: 280px;
     padding: 10px 40px;
@@ -685,8 +687,8 @@ Each individual Tool div that has tool image and text example HTML , css JS etc
     font-size: 30px;
     font-family: 'Audiowide', cursive;
 
-    border-right: 2px solid ;
-    border-image: linear-gradient(to top, transparent,white,transparent)1;
+    border-right: 2px solid;
+    border-image: linear-gradient(to top, transparent, white, transparent)1;
 
     display: flex;
     justify-content: space-evenly;
@@ -696,7 +698,7 @@ Each individual Tool div that has tool image and text example HTML , css JS etc
 
 }
 
-.tools-item img{
+.tools-item img {
     height: 90px;
     margin: 0 20px 0 0px;
 }
@@ -705,7 +707,7 @@ Each individual Tool div that has tool image and text example HTML , css JS etc
 /*=================================================================================
 JAVASCRIPT div's width is increased because of it long name
 =================================================================================*/
-#extrawide-tools-logo{
+#extrawide-tools-logo {
 
     width: 430px;
 
@@ -715,7 +717,7 @@ JAVASCRIPT div's width is increased because of it long name
 /*=================================================================================
 BOOTSTRAP and VSCode div's width is increased because of it long name
 =================================================================================*/
-#wide-tools-logo{
+#wide-tools-logo {
 
     width: 380px;
 
@@ -736,7 +738,7 @@ BOOTSTRAP and VSCode div's width is increased because of it long name
 ===================================================================================
                               The Skills Section
 ===================================================================================
-=================================================================================*/ 
+=================================================================================*/
 
 
 
@@ -748,7 +750,7 @@ BOOTSTRAP and VSCode div's width is increased because of it long name
 /*=================================================================================
 Section
 =================================================================================*/
-#Skills{
+#Skills {
     margin-top: 350px;
     width: 100%;
     height: auto;
@@ -760,7 +762,7 @@ Section
 }
 
 
-#Skills h2{
+#Skills h2 {
     width: 100%;
     max-width: var(--maxWidth);
 }
@@ -768,7 +770,7 @@ Section
 /*=================================================================================
 Main COntainer that wraps all the Skill Eements
 =================================================================================*/
-.skills-main-container{
+.skills-main-container {
     width: 100%;
     max-width: var(--maxWidth);
 
@@ -789,17 +791,17 @@ SKILLS Heading
 =================================================================================*/
 
 
-#Skills h2{
+#Skills h2 {
     max-width: var(--maxWidth);
 }
 
 /*=================================================================================
  Each Individual Skill item ex HTML,CSS,JS etc
 =================================================================================*/
-.skill-item{
+.skill-item {
     display: flex;
     flex-direction: column;
-    
+
     justify-content: center;
     align-items: center;
 
@@ -809,9 +811,8 @@ SKILLS Heading
     background-color: var(--secondary-color);
     border-radius: 10px;
 
-    box-shadow:  2px 2px 8px black,
-    -2px -2px 8px black
-
+    box-shadow: 2px 2px 8px black,
+        -2px -2px 8px black
 }
 
 
@@ -827,11 +828,11 @@ SKILLS Heading
 /*=================================================================================
 Div that is the progress bar 
 =================================================================================*/
-.progress{
-    width: 105px ;
-    height: 105px ;
+.progress {
+    width: 105px;
+    height: 105px;
 
-    background: conic-gradient(var(--main-color) 3.6deg , white 0deg);
+    background: conic-gradient(var(--main-color) 3.6deg, white 0deg);
     border-radius: 50%;
 
     display: flex;
@@ -841,16 +842,15 @@ Div that is the progress bar
     /* box-shadow: 4px 4px 15px  black,
                 -4px -4px 15px black  */
 
-    box-shadow: 4px 4px 10px  black,
-                -4px -4px 10px black 
-
+    box-shadow: 4px 4px 10px black,
+        -4px -4px 10px black
 }
 
 
 /*=================================================================================
 Circle inside the Brogress container
 =================================================================================*/
-.inside-progress{
+.inside-progress {
     width: 70%;
     height: 70%;
 
@@ -865,7 +865,7 @@ Circle inside the Brogress container
                 inset -4px -4px 25px black */
 
     box-shadow: inset 4px 4px 10px black,
-                inset -4px -4px 10px black
+        inset -4px -4px 10px black
 }
 
 
@@ -881,7 +881,7 @@ Circle inside the Brogress container
 ===================================================================================
                             The Projects Section
 ===================================================================================
-=================================================================================*/ 
+=================================================================================*/
 
 
 
@@ -892,7 +892,7 @@ Circle inside the Brogress container
 
 
 
-#Projects{
+#Projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -907,30 +907,128 @@ Circle inside the Brogress container
 }
 
 
+/*=====================================================================================
+Main COntainer in projects that contains Heading as well as the project items container 
+=======================================================================================*/
+.project-main-container{
+    width: 100%;
+    max-width: var(--maxWidth);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-name{
+    font-weight: 250px;
+}
 
 
-.project-img{
+
+.project-img {
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: auto;
+    width: 100%;
     height: auto;
 
     position: relative;
 }
 
-.macbook{
+.macbook {
     width: 300px;
 }
 
-.iphone{
+.iphone {
     width: 120px;
     position: absolute;
-    right: 20px;
-    top: 107px;
+    right: 35px;
+    top: 110px;
+
+}
+
+.project-accordion{
+    width: 100%;
+    height:auto ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+.project-accordion-head{
+    background-color: var(--secondary-color);
     
+    width: 80%;
+
+    padding: 10px 10px 10px 15px;
+
+    border-radius: 5px;
+    border: 2px solid var(--text-color);
+    
+    position: relative;
+    
+    font-size: 18px;
+
+
+}
+
+.head-active{
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+}
+
+.down-arrow{
+    position: absolute;
+    width: 15px;
+
+    top: 14px;
+    right: 15px;
+}
+
+
+
+.project-accordion-body{
+    width: 80%;
+
+    max-height: 0;
+    overflow: hidden;
+
+    transition:.5s;
+    
+}
+
+.body-active{
+    max-height: 500px;
+
+    border-top: 0;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+
+    border-radius: 5px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+
+.content{
+    
+    border: 2px solid var(--text-color);
+    border-top: 0;
+
+
+
+    background-color: var(--secondary-color);
+    padding: 10px;
 }
 
 
@@ -945,12 +1043,6 @@ Circle inside the Brogress container
 
 
 
-
-
-
-
-
-
-main{
+main {
     height: 10000px;
 }

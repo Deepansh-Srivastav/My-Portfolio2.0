@@ -327,8 +327,24 @@ window.addEventListener('scroll', (e) => {
 
     }
 
-
 })
 
 
 
+/* ================================================================================
+===================================================================================
+Adding the project Accordion Logic
+===================================================================================
+=================================================================================*/
+
+
+let accordionHead = document.querySelector('.project-accordion-head') 
+
+let accordionBody = document.querySelector('.project-accordion-body')
+
+
+accordionHead.addEventListener('click',()=>{
+    accordionHead.classList.toggle('head-active')
+
+    accordionBody.classList.toggle('body-active')
+})
