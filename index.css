@@ -222,7 +222,7 @@ Class to be activated on the Theme container when we click on the Theme Button t
 Theme select is the each individual THEME (we have 4) each with class = 'theme-select'
 ====================================================================================*/
 .theme-select {
-    font-size: 14px;
+    font-size: 12px;
     overflow: hidden;
     padding: 8px;
     width: 100%;
@@ -994,7 +994,6 @@ Accordion Down Arrow
     position: absolute;
     top: 13px;
     right: 20px;
-
 
     width: 18px;
 }

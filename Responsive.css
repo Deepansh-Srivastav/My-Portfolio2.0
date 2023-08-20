@@ -72,7 +72,7 @@
 
     /* theme selection button */
     .theme-select {
-        font-size: 12px;
+        font-size: 10px;
         max-width: 120px;
     }
 
@@ -184,6 +184,41 @@ Circle inside the Brogress container
         height: 75%;
     }
 
+
+
+
+
+
+
+
+
+    /* ================================================================================
+    ===================================================================================
+    Projects Section
+    ===================================================================================
+    =================================================================================*/
+
+    .accordion-head{
+        font-size: 14px;
+        padding:  10px 10px;
+    }
+
+    .arrow{
+        position: absolute;
+        top: 12px;
+        right: 10px;
+    
+        width: 16px;
+    }
+
+    .accordion-content{
+        font-size: 16px;
+    }
+
+    .content-img img{
+        width: 30px;
+
+    }
 
 
 
@@ -446,9 +481,61 @@ Div that is the progress bar
     }
 
 
-    /*=================================================================================
-Circle inside the Brogress container
-=================================================================================*/
+    
+
+
+
+
+
+
+
+
+    /* ================================================================================
+    ===================================================================================
+                        Projects Section
+    ===================================================================================
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+    .project-img img{
+        width: 240px;
+    }
+
+    .accordion-head{
+        font-size: 12px;
+        padding:  10px 10px;
+    }
+    .arrow{
+        top: 12px;
+        width: 16px;
+    }
+
+    .accordion-content{
+        font-size: 14px;
+    }
+    .content-img img{
+        width: 25px;
+
+    }
+
+    .visit-project button{
+        padding: 4px 20px;
+
+    }
+    
+    .visit-project img{
+        width: 22px;
+    }
+
+
 
 
 
@@ -524,7 +611,7 @@ Circle inside the Brogress container
 
     /* theme selection button */
     .theme-select {
-        font-size: 10px;
+        font-size: 8px;
         max-width: 96px;
     }
 
@@ -534,8 +621,8 @@ Circle inside the Brogress container
     }
 
     .themesButton img {
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
         margin: 0;
     }
 
@@ -689,6 +776,58 @@ Circle inside the Brogress container
         width: 75%;
         height: 75%;
     }
+
+
+
+
+
+
+
+
+
+
+    /* ================================================================================
+    ===================================================================================
+                        Projects Section
+    ===================================================================================
+    =================================================================================*/      
+    
+    
+
+
+
+
+
+
+    .project-item{
+        width: 90%;
+    }
+
+    .project-img img{
+        width: 200px;
+    }
+
+    .project-accordion{
+        width: 90%;
+    }
+
+    .accordion-head{
+        font-size: 10px;
+    }
+
+    .arrow{
+        top: 10px;
+        width: 14px;
+    }
+
+    .accordion-content{
+        font-size: 12px;
+    }
+
+    .visit-project{
+        width: 80%;
+    }
+    
 
 
 }
