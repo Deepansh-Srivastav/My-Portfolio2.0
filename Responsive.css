@@ -220,6 +220,10 @@ Circle inside the Brogress container
 
     }
 
+    .cafe-technology-used img{
+        width: 20px;
+    }
+
 
 
 
@@ -535,6 +539,10 @@ Div that is the progress bar
         width: 22px;
     }
 
+    .cafe-technology-used img{
+        width: 20px;
+    }
+
 
 
 
@@ -828,6 +836,9 @@ Circle inside the Brogress container
         width: 80%;
     }
     
+    .cafe-technology-used img{
+        width: 19px;
+    }
 
 
 }
@@ -1419,7 +1430,7 @@ Circle inside the Brogress container
 
     .info {
         margin-top: 10px;
-        font-size: 40px;
+        font-size: 32px;
     }
 
 
