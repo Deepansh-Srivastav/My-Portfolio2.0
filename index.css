@@ -870,6 +870,87 @@ Circle inside the Brogress container
 
 
 
+
+
+
+
+
+
+
+/* ================================================================================
+===================================================================================
+                            The Projects Section
+===================================================================================
+=================================================================================*/ 
+
+
+
+
+
+
+
+
+
+
+#Projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 150px;
+    padding: 0 15px;
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+.project-img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    position: relative;
+}
+
+.macbook{
+    width: 300px;
+}
+
+.iphone{
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    top: 107px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main{
     height: 10000px;
 }
