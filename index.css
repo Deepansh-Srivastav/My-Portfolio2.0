@@ -965,14 +965,16 @@ Accordion Heading
 .accordion-head{
     position: relative;
 
+    
     width: 100%;
-
+    
     padding: 10px 10px 10px 15px;
     background-color: var(--secondary-color);
-
+    
     border: 2px solid var(--text-color);
     border-radius: 5px;
-
+    
+    font-family: 'Audiowide', cursive;
     font-size: 16px;
     cursor: pointer;
 }
