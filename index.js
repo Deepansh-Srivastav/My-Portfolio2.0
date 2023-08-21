@@ -44,6 +44,8 @@ let myImage = document.querySelector('#my-image')
 
 let back2TopButton = document.querySelector('#back-to-top')
 
+let aboutImage = document.querySelector('.about-image')
+
 
 function toggleImage(value) {
 
@@ -51,30 +53,43 @@ function toggleImage(value) {
         case 0:
             myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-blue.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/blue-arrow.png'
+            aboutImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/About/About-blue.png'
             break;
 
         case 1:
             myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-purple.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/purple-arrow.png'
+            aboutImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/About/About-purple.png'
             break;
 
         case 2:
             myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-green.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/green-arrow.png'
+            aboutImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/About/About-black.png'
             break;
 
         case 3:
             myImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/My%20Images/me-red.png'
             back2TopButton.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/Back%20to%20top%20icons/red-arrow.png'
+            aboutImage.src = 'https://deepansh-srivastav.github.io/My-Portfolio2.0/Icons/About/About-red.png'
             break;
-
-
 
         default:
             break;
     }
 
 }
+
+
+// purple image = 'http://127.0.0.1:5501/Icons/About/About-purple.png'
+
+// red image = 'http://127.0.0.1:5501/Icons/About/About-red.png'
+
+// blue image = 'http://127.0.0.1:5501/Icons/About/About-blue.png'
+
+
+
+
 
 
 
