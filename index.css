@@ -822,15 +822,6 @@ SKILLS Heading
 }
 
 
-.skill-item:hover {
-
-    transform: scale(1.05);
-
-
-
-}
-
-
 /*=================================================================================
 Div that is the progress bar 
 =================================================================================*/
@@ -854,7 +845,7 @@ Div that is the progress bar
 
 
 /*=================================================================================
-Circle inside the Brogress container
+Circle inside the Progress container
 =================================================================================*/
 .inside-progress {
     width: 70%;
@@ -866,9 +857,6 @@ Circle inside the Brogress container
 
     border-radius: 50%;
     background-color: var(--secondary-color);
-
-    /* box-shadow: inset 4px 4px 25px black,
-                inset -4px -4px 25px black */
 
     box-shadow: inset 4px 4px 10px black,
         inset -4px -4px 10px black
@@ -933,6 +921,8 @@ Each Individual Project Div that contains Project Image ,detail and visiting lin
 =================================================================================*/
 .project-item{
     width: 100%;
+    max-width: 730px;
+
     margin-top: 60px;
 
     display: flex;
@@ -944,10 +934,18 @@ Each Individual Project Div that contains Project Image ,detail and visiting lin
     border-radius: 8px;
 
     box-shadow:  4px 4px 10px black,
-     -4px -4px 10px black
+     -4px -4px 10px black;
 
 }
 
+/*=================================================================================
+Project-details is the container that contains the Accordion and visit Buttons 
+=================================================================================*/
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*=================================================================================
 Image of Project
@@ -958,9 +956,18 @@ Image of Project
 
 
 /*=================================================================================
+Project Information that is to be dispalyed in the pc and ipad 
+=================================================================================*/
+.non-accordion-info{
+    display: none;
+}
+
+
+/*=================================================================================
 Accordion That contains Project Details
 =================================================================================*/
 .project-accordion{
+    max-width: 600px;
     width: 80%;
     height: auto;
 }
@@ -971,7 +978,6 @@ Accordion Heading
 .accordion-head{
     position: relative;
 
-    
     width: 100%;
     
     padding: 10px 10px 10px 15px;
@@ -980,9 +986,11 @@ Accordion Heading
     border: 2px solid var(--text-color);
     border-radius: 5px;
     
-    font-family: 'Audiowide', cursive;
+    font-family: 'Audiowide', 'cursive';
     font-size: 16px;
     cursor: pointer;
+
+    color: #F3AA60;
 }
 
 .change-head-border {
@@ -1065,7 +1073,6 @@ Visit Buttons
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .visit-project button{
@@ -1074,6 +1081,8 @@ Visit Buttons
     border: 3px solid white;
     border-radius: 5px;
     cursor: pointer;
+
+    transition: transform .5s;
 }
 
 .visit-project img{
@@ -1081,9 +1090,6 @@ Visit Buttons
     transition: 1s;
 }
 
-.visit-project img:hover{
-    transform: scale(1.09);
-}
 
 
 

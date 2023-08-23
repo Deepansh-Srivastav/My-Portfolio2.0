@@ -139,7 +139,7 @@
     /*=================================================================================
                                         Skills Section
     =================================================================================*/
-    #Skills{
+    #Skills {
         margin-top: 450px;
     }
 
@@ -210,24 +210,24 @@ Circle inside the Brogress container
     /*=================================================================================
     Accordion
     =================================================================================*/
-    .accordion-head{
+    .accordion-head {
         font-size: 14px;
-        padding:  10px 10px;
+        padding: 10px 10px;
     }
 
-    .arrow{
+    .arrow {
         position: absolute;
         top: 12px;
         right: 10px;
-    
+
         width: 16px;
     }
 
-    .accordion-content{
+    .accordion-content {
         font-size: 16px;
     }
 
-    .content-img img{
+    .content-img img {
         width: 30px;
 
     }
@@ -235,7 +235,7 @@ Circle inside the Brogress container
     /*=================================================================================
     Technology used inside the Gauri cafe accordion
     =================================================================================*/
-    .cafe-technology-used img{
+    .cafe-technology-used img {
         width: 20px;
     }
 
@@ -438,7 +438,7 @@ Circle inside the Brogress container
     ===================================================================================
                             Tools Section 
     ===================================================================================
-    =================================================================================*/ 
+    =================================================================================*/
 
 
 
@@ -449,7 +449,7 @@ Circle inside the Brogress container
 
 
 
-    .tools-main-container{
+    .tools-main-container {
         height: 200px;
 
     }
@@ -500,7 +500,7 @@ Div that is the progress bar
     }
 
 
-    
+
 
 
 
@@ -526,26 +526,28 @@ Div that is the progress bar
     /*=================================================================================
     Project Image
     =================================================================================*/
-    .project-img img{
+    .project-img img {
         width: 240px;
     }
 
     /*=================================================================================
     Accordion
     =================================================================================*/
-    .accordion-head{
+    .accordion-head {
         font-size: 12px;
-        padding:  10px 10px;
+        padding: 10px 10px;
     }
-    .arrow{
+
+    .arrow {
         top: 12px;
         width: 16px;
     }
 
-    .accordion-content{
+    .accordion-content {
         font-size: 14px;
     }
-    .content-img img{
+
+    .content-img img {
         width: 25px;
 
     }
@@ -553,19 +555,19 @@ Div that is the progress bar
     /*=================================================================================
     Visit Project and github button
     =================================================================================*/
-    .visit-project button{
+    .visit-project button {
         padding: 4px 20px;
 
     }
-    
-    .visit-project img{
+
+    .visit-project img {
         width: 22px;
     }
 
     /*=================================================================================
     Technology used in the Gauri Cafe Website
     =================================================================================*/
-    .cafe-technology-used img{
+    .cafe-technology-used img {
         width: 20px;
     }
 
@@ -743,13 +745,13 @@ Div that is the progress bar
 
 
 
-        /* ================================================================================
+    /* ================================================================================
     ===================================================================================
                             Tools Section 
     ===================================================================================
     =================================================================================*/
 
-    .tools-main-container{
+    .tools-main-container {
         height: 180px;
 
     }
@@ -824,55 +826,55 @@ Circle inside the Brogress container
     ===================================================================================
                         Projects Section
     ===================================================================================
-    =================================================================================*/      
-    
-    
+    =================================================================================*/
+
+
 
 
 
     /*=================================================================================
     Each individual item in project
     =================================================================================*/
-    .project-item{
+    .project-item {
         width: 90%;
     }
 
-    .project-img img{
+    .project-img img {
         width: 200px;
     }
 
     /*=================================================================================
     Accordion inside project item for the project details
     =================================================================================*/
-    .project-accordion{
+    .project-accordion {
         width: 90%;
     }
 
 
-    .accordion-head{
+    .accordion-head {
         font-size: 10px;
     }
 
-    .arrow{
+    .arrow {
         top: 10px;
         width: 14px;
     }
 
-    .accordion-content{
+    .accordion-content {
         font-size: 12px;
     }
 
     /*=================================================================================
     Buttons to visit github and project
     =================================================================================*/
-    .visit-project{
+    .visit-project {
         width: 80%;
     }
-    
+
     /*=================================================================================
     Technology used inside the GAuri Cafe accordion
     =================================================================================*/
-    .cafe-technology-used img{
+    .cafe-technology-used img {
         width: 19px;
     }
 
@@ -1097,7 +1099,7 @@ Circle inside the Brogress container
 Main COntainer that wraps all the Skill Eements
 =================================================================================*/
     .skills-main-container {
-        padding: 0px 20px
+        padding: 0px 0px
     }
 
 
@@ -1105,100 +1107,78 @@ Main COntainer that wraps all the Skill Eements
  Each Individual Skill item ex HTML,CSS,JS etc
 =================================================================================*/
     .skill-item {
-        height: 28vh;
+        height: 300px;
         width: 31.5%;
+
+        max-width: 230px;
     }
 
 
     /*=================================================================================
-Div that is the progress bar 
-=================================================================================*/
-    .progress {
-        width: 65%;
-        height: 48.5%;
-    }
-
-
-    /*=================================================================================
-Circle inside the Brogress container
-=================================================================================*/
-    .inside-progress {
-        width: 70%;
-        height: 70%;
-    }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* ================================================================================
-===================================================================================
-                        Device Width more than 1000px
-===================================================================================
-=================================================================================*/
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:1000px) {
-
-    /* NavBar */
-    .nav-bar {
-        padding: 0 0 0 100px;
-        border-radius: 0;
-    }
-
-    .item-container {
-        display: flex;
-        justify-content: space-evenly;
-        width: 80%;
-    }
-
-
-    /*=================================================================================
-                    Information 
+    Div that is the progress bar 
     =================================================================================*/
-    .information-container {
-        margin-top: 100px;
+    .progress {
+        width: 70%;
+        height: 52%;
     }
 
 
-    .my-image {
-        width: 350px;
-        height: 350px;
-        border: 6px solid var(--text-color);
+    /*=================================================================================
+    Projects Section
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*=================================================================================
+    Image of Project
+    =================================================================================*/
+    .project-img img {
+        width: 450px;
     }
 
-    .my-image img {
-        width: 200px;
-        height: 345px;
-        right: 68px;
+
+    /*=================================================================================
+    Accordion Heading 
+    =================================================================================*/
+    .accordion-head {
+        font-size: 26px;
+        padding-left: 25px;
     }
 
-    .info {
-        margin-top: 10px;
-        font-size: 55px;
+
+    /*=================================================================================
+    Accordion Content 
+    =================================================================================*/
+    .accordion-content {
+        padding: 10px 15px;
+        font-size: 24px;
     }
 
-    
+
+    /*=================================================================================
+    Visit Project is the main DIV for the visit the project Section
+    =================================================================================*/
+    .visit-project button {
+        padding: 10px 35px;
+    }
+
+    .visit-project img {
+        width: 35px;
+    }
+
+
+
+
 
 
 
@@ -1208,6 +1188,71 @@ Circle inside the Brogress container
 
 
     /* ================================================================================
+    ===================================================================================
+                            Device Width more than 1000px
+    ===================================================================================
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+    @media(min-width:1000px) {
+
+        /* NavBar */
+        .nav-bar {
+            padding: 0 0 0 100px;
+            border-radius: 0;
+        }
+
+        .item-container {
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+        }
+
+
+        /*=================================================================================
+                    Information 
+    =================================================================================*/
+        .information-container {
+            margin-top: 100px;
+        }
+
+
+        .my-image {
+            width: 350px;
+            height: 350px;
+            border: 6px solid var(--text-color);
+        }
+
+        .my-image img {
+            width: 200px;
+            height: 345px;
+            right: 68px;
+        }
+
+        .info {
+            margin-top: 10px;
+            font-size: 55px;
+        }
+
+
+
+
+
+
+
+
+
+
+        /* ================================================================================
     ===================================================================================
                                   The TOOLS Section
     ===================================================================================
@@ -1219,142 +1264,139 @@ Circle inside the Brogress container
 
 
 
-    #Tools {
-        margin-top: 100px;
-        width: 100%;
-        overflow: hidden;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
+        #Tools {
+            margin-top: 100px;
+            width: 100%;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
 
-    #Tools h2{
-        max-width: 80% ;
-    }
+        #Tools h2 {
+            max-width: 80%;
+        }
 
-    .tools-main-container {
-        width: 100%;
-        height: 300px;
-
-
-        display: flex;
-        position: relative;
-    } 
-
-    .tools-main-container::before {
-        position: absolute;
-        content: "";
-        height: 100%;
-        z-index: 1;
-        width: 20%;
-        background: linear-gradient(to left, transparent, transparent, #000000, #000000);
-        left: 0;
-        top: 0;
-    }
-
-    .tools-main-container::after {
-
-        background: linear-gradient(to right, transparent, transparent, #000000, #000000);
-
-        position: absolute;
-        content: "";
-        height: 100%;
-        z-index: 2;
-        width: 20%;
-
-        right: 0;
-        top: 0;
-    }
+        .tools-main-container {
+            width: 100%;
+            height: 300px;
 
 
-    /*=================================================================================
+            display: flex;
+            position: relative;
+        }
+
+        .tools-main-container::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            z-index: 1;
+            width: 20%;
+            background: linear-gradient(to left, transparent, transparent, #000000, #000000);
+            left: 0;
+            top: 0;
+        }
+
+        .tools-main-container::after {
+
+            background: linear-gradient(to right, transparent, transparent, #000000, #000000);
+
+            position: absolute;
+            content: "";
+            height: 100%;
+            z-index: 2;
+            width: 20%;
+
+            right: 0;
+            top: 0;
+        }
+
+
+        /*=================================================================================
     Tools main container
     =================================================================================*/
 
 
-    .tools-logo-container {
-        animation: slide 35s linear infinite;
+        .tools-logo-container {
+            animation: slide 35s linear infinite;
+        }
+
+        .tools-item img {
+            height: 110px;
+        }
+
+
+
+
+
+
+
+
+
+
+        /*=================================================================================
+        Projects Section
+        =================================================================================*/
+
+
+
+
+
+
+
+
+        /*=================================================================================
+        Project Image
+        =================================================================================*/
+        .project-img img {
+            width: 520px;
+        }
+
+
+        /*=================================================================================
+        Each Individual Project Item
+        =================================================================================*/
+        .project-item {
+            width: 100%;
+            max-width: 1000px;
+        }
+
+
+        /*=================================================================================
+        Accordion HEad
+        =================================================================================*/
+        .project-accordion {
+            max-width: 800PX;
+        }
+
+        .accordion-head {
+            font-size: 28px;
+        }
+
+        .accordion-content {
+            font-size: 26px;
+            padding: 15px;
+        }
+
+        .content-img {
+            margin-top: 40px;
+        }
+
+        .content-img img {
+            width: 40px;
+        }
+
+
+
+
+
+
     }
 
 
 
 
-    .tools-item img {
-        height: 110px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*=================================================================================
-                                        Skills Section
-    =================================================================================*/
-
-
-
-
-
-
-
-
-
-    /*=================================================================================
- Each Individual Skill item ex HTML,CSS,JS etc
-=================================================================================*/
-    .skill-item {
-        width: 380px;
-        height: 450px;
-        transition: transform .4s;
-    }
-
-    .skill-item:hover {
-
-        cursor: pointer;
-        transform: scale(1.05);
-
-    }
-
-
-    /*=================================================================================
-Div that is the progress bar 
-=================================================================================*/
-    .progress {
-        width: 280px;
-        height: 280px;
-    }
-
-
-    /*=================================================================================
-Circle inside the Brogress container
-=================================================================================*/
-    .inside-progress {
-        width: 76%;
-        height: 76%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ================================================================================
+    /* ================================================================================
 ===================================================================================
                     for devices width more than  1300px
 ===================================================================================
@@ -1372,104 +1414,102 @@ Circle inside the Brogress container
 
 
 
-@media(min-width:1300px) {
+    @media(min-width:1300px) {
 
-    /*=================================================================================
+        /*=================================================================================
                                             Navbar
     =================================================================================*/
-    .nav-bar {
-        padding: 0 0 0 100px;
-        border-radius: 0;
-    }
+        .nav-bar {
+            padding: 0 0 0 100px;
+            border-radius: 0;
+        }
 
-    .portfolio {
-        height: 60px;
-        width: 60px;
-        transition: .3s;
-    }
+        .portfolio {
+            height: 60px;
+            width: 60px;
+            transition: .3s;
+        }
 
-    .portfolio:hover {
-        cursor: pointer;
-        background-color: #EBE76C;
-    }
+        .portfolio:hover {
+            cursor: pointer;
+            background-color: #EBE76C;
+        }
 
-    .portfolio img {
-        width: 80px;
-        transition: transform .3s;
-    }
+        .portfolio img {
+            width: 80px;
+            transition: transform .3s;
+        }
 
-    .portfolio img:hover {
-        transform: scale(1.06);
-    }
+        .portfolio img:hover {
+            transform: scale(1.06);
+        }
 
-    .item-container {
-        width: 80%;
-    }
+        .item-container {
+            width: 80%;
+        }
 
-    .item {
-        width: 130px;
-        height: 90px;
-        display: flex;
-        flex-direction: column;
-        transition: .3s;
-    }
+        .item {
+            width: 130px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            transition: .3s;
+        }
 
-    .item:hover {
+        .item:hover {
 
-        transform: scale(1.05);
-    }
+            transform: scale(1.05);
+        }
 
-    .item img {
-        width: 28px;
-        height: 28px;
-        margin-bottom: 5px;
-    }
+        .item img {
+            width: 28px;
+            height: 28px;
+            margin-bottom: 5px;
+        }
 
-    .item-names {
-        font-size: 14px;
-    }
+        .item-names {
+            font-size: 14px;
+        }
 
-    .theme-container {
-        border-radius: 0;
-    }
+        .theme-container {
+            border-radius: 0;
+        }
 
-    .themesButton {
-        font-size: 14px;
-        width: 150px;
-    }
+        .themesButton {
+            font-size: 14px;
+            width: 150px;
+        }
 
-    .themesButton:hover {
-        background-color: var(--bg);
-        border-radius: 0;
-    }
+        .themesButton:hover {
+            background-color: var(--bg);
+            border-radius: 0;
+        }
 
-    .themesButton img {
-        width: 28px;
-        height: 28px;
-    }
+        .themesButton img {
+            width: 28px;
+            height: 28px;
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
                                  Information Section
     =================================================================================*/
-    .my-image {
-        width: 350px;
-        height: 350px;
-        border: 6px solid var(--text-color);
-    }
+        .my-image {
+            width: 350px;
+            height: 350px;
+            border: 6px solid var(--text-color);
+        }
 
-    .my-image img {
-        width: 200px;
-        height: 345px;
-        right: 68px;
-    }
+        .my-image img {
+            width: 200px;
+            height: 345px;
+            right: 68px;
+        }
 
-    .info {
-        margin-top: 10px;
-        font-size: 32px;
-    }
-
-
+        .info {
+            margin-top: 10px;
+            font-size: 32px;
+        }
 
 
 
@@ -1477,7 +1517,9 @@ Circle inside the Brogress container
 
 
 
-    /* ================================================================================
+
+
+        /* ================================================================================
     ===================================================================================
                                   The TOOLS Section
     ===================================================================================
@@ -1489,124 +1531,122 @@ Circle inside the Brogress container
 
 
 
-    #Tools {
-        margin-top: 100px;
-        width: 100%;
-        overflow: hidden;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
+        #Tools {
+            margin-top: 100px;
+            width: 100%;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
 
-    #Tools h2{
-        max-width: 80% ;
-    }
+        #Tools h2 {
+            max-width: 80%;
+        }
 
-    .tools-main-container {
-        width: 100%;
-        height: 300px;
-
-
-        display: flex;
-        position: relative;
-    } 
-
-    .tools-main-container::before {
-        position: absolute;
-        content: "";
-        height: 100%;
-        z-index: 1;
-        width: 20%;
-        background: linear-gradient(to left, transparent, transparent, #000000, #000000);
-        left: 0;
-        top: 0;
-    }
-
-    .tools-main-container::after {
-
-        background: linear-gradient(to right, transparent, transparent, #000000, #000000);
-
-        position: absolute;
-        content: "";
-        height: 100%;
-        z-index: 2;
-        width: 20%;
-
-        right: 0;
-        top: 0;
-    }
+        .tools-main-container {
+            width: 100%;
+            height: 300px;
 
 
-    /*=================================================================================
+            display: flex;
+            position: relative;
+        }
+
+        .tools-main-container::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            z-index: 1;
+            width: 20%;
+            background: linear-gradient(to left, transparent, transparent, #000000, #000000);
+            left: 0;
+            top: 0;
+        }
+
+        .tools-main-container::after {
+
+            background: linear-gradient(to right, transparent, transparent, #000000, #000000);
+
+            position: absolute;
+            content: "";
+            height: 100%;
+            z-index: 2;
+            width: 20%;
+
+            right: 0;
+            top: 0;
+        }
+
+
+        /*=================================================================================
     Tools main container
     =================================================================================*/
 
 
-    .tools-logo-container {
+        .tools-logo-container {
 
-        background-color: #000000;
+            background-color: #000000;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        animation: slide 35s linear infinite;
-
-
-    }
+            animation: slide 35s linear infinite;
 
 
+        }
 
 
-    /*=================================================================================
+
+
+        /*=================================================================================
     Each individual Tool div that has tool image and text example HTML , css JS etc
     =================================================================================*/
-    .tools-item {
-        height: 120px;
-        width: 300px;
-        padding: 10px 40px;
+        .tools-item {
+            height: 120px;
+            width: 300px;
+            padding: 10px 40px;
 
-        font-size: 33px;
-        font-family: 'Audiowide', cursive;
+            font-size: 33px;
+            font-family: 'Audiowide', cursive;
 
-        border-right: 2px solid;
-        border-image: linear-gradient(to top, transparent, white, transparent)1;
-
-
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-
-        background-color: #000000;
-
-    }
-
-    .tools-item img {
-        height: 110px;
-        margin: 0 20px 0 0px;
-    }
+            border-right: 2px solid;
+            border-image: linear-gradient(to top, transparent, white, transparent)1;
 
 
-    /*=================================================================================
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            background-color: #000000;
+
+        }
+
+        .tools-item img {
+            height: 110px;
+            margin: 0 20px 0 0px;
+        }
+
+
+        /*=================================================================================
     JAVASCRIPT div's width is increased because of it long name
     =================================================================================*/
-    #extrawide-tools-logo {
+        #extrawide-tools-logo {
 
-        width: 430px;
+            width: 430px;
 
-    }
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
     BOOTSTRAP and VSCode div's width is increased because of it long name
     =================================================================================*/
-    #wide-tools-logo {
+        #wide-tools-logo {
 
-        width: 380px;
+            width: 380px;
 
-    }
-
-
+        }
 
 
 
@@ -1626,7 +1666,9 @@ Circle inside the Brogress container
 
 
 
-    /*=================================================================================
+
+
+        /*=================================================================================
             About 
     =================================================================================*/
 
@@ -1640,84 +1682,199 @@ Circle inside the Brogress container
 
 
 
-    #About {
-        margin-top: 400px;
+        #About {
+            margin-top: 400px;
 
-        padding: 100px 5px 50px 5px;
-    }
+            padding: 100px 5px 50px 5px;
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
     Main Container
     =================================================================================*/
-    .about-container {
+        .about-container {
 
-        padding: 0 10px;
-        max-width: var(--maxWidth);
-        width: 100%;
-
-
-
-    }
-
-    .about-text-container {
-        width: 66%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+            padding: 0 10px;
+            max-width: var(--maxWidth);
+            width: 100%;
 
 
-    /*=================================================================================
+
+        }
+
+        .about-text-container {
+            width: 66%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        /*=================================================================================
     Image in About container to be visible in larger screens only
     =================================================================================*/
-    .about-image {
-        display: block;
-        width: 400px;
-        border-radius: 2px;
+        .about-image {
+            display: block;
+            width: 400px;
+            border-radius: 2px;
 
-    }
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
             Changing the font size of about heading 
     =================================================================================*/
-    .about-head {
-        font-size: 50px;
-        text-align: center;
-        padding: 0;
-    }
+        .about-head {
+            font-size: 50px;
+            text-align: center;
+            padding: 0;
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
     Text discription of about section after the head
     =================================================================================*/
-    .about-text {
-        width: 100%;
-        text-align: left;
-        font-size: 24px;
-    }
+        .about-text {
+            width: 100%;
+            text-align: left;
+            font-size: 24px;
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
     Resume and Hire Button Container
     =================================================================================*/
-    .buttons {
-        width: 55%;
+        .buttons {
+            width: 55%;
 
-    }
+        }
 
 
-    /*=================================================================================
+        /*=================================================================================
     Resume Button Styling
     =================================================================================*/
-    .resume-button {
-        padding: 20px 40px;
-        margin-top: 20px;
+        .resume-button {
+            padding: 20px 40px;
+            margin-top: 20px;
 
-        border-radius: 40px;
+            border-radius: 40px;
 
-        font-size: 20px;
+            font-size: 20px;
+
+        }
+
+
+
+
+
+
+
+
+
+        /* ================================================================================
+        ===================================================================================
+        Skill Container
+        ===================================================================================
+        =================================================================================*/
+
+        .skill-item {
+            max-width: 320px;
+            height: 400px;
+        }
+
+        .progress {
+            width: 220px;
+            height: 220px;
+        }
+
+
+        /*=================================================================================
+        Visit Project Container
+        =================================================================================*/
+        .visit-project button{
+            padding: 10px 45px;
+        }
+
+        .visit-project button:hover{
+            transform: scale(1.1);
+        }
+
+        .visit-project img{
+           width: 40px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /*=================================================================================
+        Projects Section
+        =================================================================================*/
+
+
+
+
+
+
+
+
+        /*=================================================================================
+        Project Image
+        =================================================================================*/
+        .project-img img {
+            width: 700px;
+        }
+
+
+        /*=================================================================================
+        Each Individual Project Item
+        =================================================================================*/
+        .project-item {
+            width: 100%;
+            max-width: 1200px;
+        }
+
+
+        /*=================================================================================
+        Accordion HEad
+        =================================================================================*/
+        .project-accordion {
+            max-width: 950px;
+        }
+
+        .accordion-head {
+            font-size: 28px;
+            padding-left: 50px;
+        }
+
+        .arrow{
+            top: 18px;
+        }
+
+        .accordion-content {
+            font-size: 26px;
+            padding: 20px;
+        }
+
+        .content-img {
+            margin-top: 40px;
+        }
+
+        .content-img img {
+            width: 50px;
+            margin: 10px;
+        }
+
+        .visit-project img{
+            width: 40px;
+        }
 
     }
 
@@ -1729,85 +1886,61 @@ Circle inside the Brogress container
 
 
 
-    /* ================================================================================
-    ===================================================================================
-    Skill Container
-    ===================================================================================
-    =================================================================================*/
+    @media(min-width:1700px) {
 
-    .skill-item {
-        width: 320px;
-        height: 400px;
-    }
-
-    .progress {
-        width: 240px;
-        height: 240px;
-    }
-
-}
-
-
-
-
-
-@media(min-width:1700px) {
-
-    /*=================================================================================
+        /*=================================================================================
                                       Navbar
     =================================================================================*/
-    .nav-bar {
-        padding: 0 0 0 100px;
-        border-radius: 0;
-    }
+        .nav-bar {
+            padding: 0 0 0 100px;
+            border-radius: 0;
+        }
 
-    .portfolio img {
-        width: 80px;
-    }
+        .portfolio img {
+            width: 80px;
+        }
 
-    .item-container {
-        display: flex;
-        justify-content: space-evenly;
-        width: 80%;
-    }
+        .item-container {
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+        }
 
-    .item {
-        width: 150px;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-    }
+        .item {
+            width: 150px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+        }
 
-    .item img {
-        width: 25px;
-        height: 25px;
-        margin-bottom: 5px;
-    }
+        .item img {
+            width: 25px;
+            height: 25px;
+            margin-bottom: 5px;
+        }
 
-    .item-names {
-        font-size: 14px;
-    }
+        .item-names {
+            font-size: 14px;
+        }
 
-    .theme-container {
-        border-radius: 0;
-    }
+        .theme-container {
+            border-radius: 0;
+        }
 
-    .themesButton {
-        font-size: 16px;
-        width: 150px;
-    }
+        .themesButton {
+            font-size: 16px;
+            width: 150px;
+        }
 
-    .themesButton:hover {
-        background-color: var(--bg);
-        border-radius: 0;
-    }
+        .themesButton:hover {
+            background-color: var(--bg);
+            border-radius: 0;
+        }
 
-    .themesButton img {
-        width: 25px;
-        height: 25px;
-    }
-
-
+        .themesButton img {
+            width: 25px;
+            height: 25px;
+        }
 
 
 
@@ -1815,29 +1948,29 @@ Circle inside the Brogress container
 
 
 
-    /*=================================================================================
+
+
+        /*=================================================================================
                                  Information Section
     =================================================================================*/
-    .my-image {
-        width: 400px;
-        height: 400px;
-        border: 6px solid var(--text-color);
-    }
+        .my-image {
+            width: 400px;
+            height: 400px;
+            border: 6px solid var(--text-color);
+        }
 
-    .my-image img {
-        width: 230px;
-        height: 389px;
-        position: absolute;
-        top: 0;
-        right: 76px;
-    }
+        .my-image img {
+            width: 230px;
+            height: 389px;
+            position: absolute;
+            top: 0;
+            right: 76px;
+        }
 
-    .info {
-        margin-top: 10px;
-        font-size: 55px;
-    }
-
-
+        .info {
+            margin-top: 10px;
+            font-size: 55px;
+        }
 
 
 
@@ -1845,11 +1978,13 @@ Circle inside the Brogress container
 
 
 
-    /*=================================================================================
+
+
+        /*=================================================================================
                                  About Section
     =================================================================================*/
 
 
 
 
-}
+    }
