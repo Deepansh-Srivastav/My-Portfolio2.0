@@ -66,10 +66,10 @@ html {
 
 /* blue     "Oceanic Elegance */
 /* Final */
-:root {
-    /* --bg: #081b29; */
-    --bg: #081b29;
 
+:root {
+    
+    --bg: #081b29;
     --secondary-color: #112e42;
     --main-color: #00abf0;
     --text-color: #ededed;
@@ -106,6 +106,11 @@ NavBar Styling
 
     background-color: var(--main-color);
 
+    --text-color: #ededed;
+
+    color: var(--text-color);
+
+
     position: fixed;
     top: 65px;
     right: 0;
@@ -131,6 +136,7 @@ It is the First div inside the Navbar and it contains the PORTFOLIO image
     justify-content: center;
     align-items: center;
     width: 45px;
+    
 }
 
 
