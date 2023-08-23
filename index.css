@@ -1098,6 +1098,48 @@ Visit Buttons
 
 
 
+/* ================================================================================
+===================================================================================
+                        The Education Section
+===================================================================================
+=================================================================================*/
+
+
+
+
+
+
+
+
+
+
+#Education{
+    width: 100%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.education-main-container{
+    padding-right: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.education-icon{
+    width: 150px;
+    margin-top: 50px;
+}
+
+
 
 
 
