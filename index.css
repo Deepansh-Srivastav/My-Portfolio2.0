@@ -69,9 +69,9 @@ html {
 
 :root {
     
-    --bg: #081b29;
-    --secondary-color: #112e42;
-    --main-color: #00abf0;
+    --bg : #040c18;
+    --secondary-color :#112e42 ;
+    --main-color : #614bc3;
     --text-color: #ededed;
 
     --maxWidth: 1250px;
