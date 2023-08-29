@@ -56,27 +56,27 @@ html {
 
 /* purple   Indigo Delight*/
 /* Final */
-/* :root{
+:root{
     --bg : #040c18;
     --secondary-color :#112e42 ;
     --main-color : #614bc3;
     --text-color : #ededed;
     --maxWidth:1300px;
-} */
+}
 
 /* blue     "Oceanic Elegance */
 /* Final */
 
-:root {
+/* :root {
     
-    --bg : #040c18;
-    --secondary-color :#112e42 ;
-    --main-color : #614bc3;
+    --bg: #081b29;
+    --secondary-color: #112e42;
+    --main-color: #00abf0;
     --text-color: #ededed;
 
     --maxWidth: 1250px;
     --smallMaxWidth: 1000px
-}
+} */
 
 body {
     background-color: var(--bg);
