@@ -908,8 +908,8 @@ Div that is the progress bar
 
 
     /*=================================================================================
-Circle inside the Brogress container
-=================================================================================*/
+    Circle inside the Brogress container
+    =================================================================================*/
     .inside-progress {
         width: 70%;
         height: 70%;
@@ -980,7 +980,7 @@ Circle inside the Brogress container
         width: 19px;
     }
 
-        /* ================================================================================
+    /* ================================================================================
 ===================================================================================
                         The Contact Section
 ===================================================================================
@@ -1348,7 +1348,7 @@ Main COntainer that wraps all the Skill Eements
     =================================================================================*/
 
     .education-main-container {
-        padding: 0;
+        padding: 10px;
         width: 100%;
         max-width: var(--maxWidth);
     }
@@ -1362,6 +1362,69 @@ Main COntainer that wraps all the Skill Eements
         width: 210px;
     }
 
+
+
+
+
+
+
+
+
+    /* ================================================================================
+===================================================================================
+                        The Contact Section
+===================================================================================
+=================================================================================*/
+
+
+
+
+
+
+
+
+
+
+    #Contacts {
+        border-image: linear-gradient(to right, transparent, var(--text-color), transparent)1;
+    }
+
+
+    /*=================================================================================
+Main container in contacts section
+=================================================================================*/
+    .main-container {
+        padding: 0 0 0 0;
+    }
+
+
+    /*=================================================================================
+Email container
+=================================================================================*/
+    .email-container {
+
+        width: 100%;
+        min-height: 150px;
+        height: auto;
+
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .email-container img {
+        width: 22px;
+    }
+
+    .email a {
+        font-size: 20px;
+    }
+
+    .mobile-icons {}
 
 
 }
@@ -2072,6 +2135,120 @@ Main COntainer that wraps all the Skill Eements
     .visit-project img {
         width: 40px;
     }
+
+
+
+
+
+
+
+
+
+
+
+    /* ================================================================================
+===================================================================================
+                        The Contact Section
+===================================================================================
+=================================================================================*/
+
+.contact-email-and-social-head{
+    font-size: 24px;
+}
+
+
+
+
+
+    /*=================================================================================
+Main container in contacts section
+=================================================================================*/
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 1200px;
+
+    }
+
+
+    /*=================================================================================
+Email container
+=================================================================================*/
+    .email-container {
+        margin-top: 20px;
+    }
+
+    .email-container img {
+        width: 22px;
+    }
+
+    .email a {
+        font-size: 20px;
+    }
+
+
+    .socialmedia-container{
+        width: 100%;
+        max-width: 450px;
+        margin-top: 20px;
+    }
+
+    .mobile-icons {
+        display: none;
+    }
+
+    .laptop-icons{        
+        width: 90%;
+        margin-top: 25px;
+
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    .laptop-icon-link{
+        background-color: white;
+        height: 45px;
+        width: 45px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 50%;
+
+        border: 3px solid white;
+
+        transition: background-color 0.5s ease;
+
+
+    }
+
+    .laptop-icons img{
+
+        width: 25px;
+       
+        transition: transform .8s ease, filter .8s ease;
+    }
+
+    .laptop-icon-link:hover{
+        background-color: var(--main-color);
+    }
+
+    .laptop-icon-link:hover img{
+        filter: invert();
+        transform: rotatey(360deg);
+    }
+
+
+
+
+
+
+
+
 
 }
 

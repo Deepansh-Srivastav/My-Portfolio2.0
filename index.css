@@ -1203,6 +1203,8 @@ Email container
     min-height: 150px;
     height: auto;
 
+    max-width: 450px;
+
     margin-top: 20px;
 
     display: flex;
@@ -1260,6 +1262,7 @@ Social Media Main Container
 
 .mobile-icons{
     width: 80%;
+    max-width: 400px;
 
     margin-top: 20px;
     display: flex;
@@ -1279,6 +1282,10 @@ Social Media Main Container
     width: 40px;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.laptop-icons {
+    display: none;
 }
 
 
