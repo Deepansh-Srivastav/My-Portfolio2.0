@@ -2177,6 +2177,7 @@ Email container
 =================================================================================*/
     .email-container {
         margin-top: 20px;
+        max-width: 450px;
     }
 
     .email-container img {
