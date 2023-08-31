@@ -1836,13 +1836,18 @@ Main COntainer that wraps all the Skill Eements
         =================================================================================*/
 
     .skill-item {
-        max-width: 320px;
+        max-width: 330px;
         height: 400px;
     }
 
     .progress {
         width: 220px;
         height: 220px;
+    }
+
+    .inside-progress{
+        width: 71%;
+        height:71% ;
     }
 
 
